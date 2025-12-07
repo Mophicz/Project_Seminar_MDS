@@ -1,0 +1,2459 @@
+[
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\1. Halsschmerzen Schluckbeschwerden.txt",
+        "medication_text": "Paracetamol 500 mg, 1-0-1, bei Bedarf",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1735,
+        "end": 1772,
+        "confidence": 0.9145786891288562
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\1. Halsschmerzen Schluckbeschwerden.txt",
+        "medication_text": "Chlorhexidin 0,2%, 2",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1801,
+        "end": 1821,
+        "confidence": 0.6570509113650013
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\2. Husten.txt",
+        "medication_text": "10 mg Ramipril",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 982,
+        "end": 996,
+        "confidence": 0.8146228705936616
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\2. Husten.txt",
+        "medication_text": "Antitussiva",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1710,
+        "end": 1721,
+        "confidence": 0.6582385883330208
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\2. Husten.txt",
+        "medication_text": "Dextromethorphan 15 mg, 1-0-1, bei Bedarf",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1723,
+        "end": 1764,
+        "confidence": 0.6448634323073872
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\2. Husten.txt",
+        "medication_text": "Salbutamol 100 µg, 1-2 Hübe bei Bedarf",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1786,
+        "end": 1824,
+        "confidence": 0.89127893222282
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\2. Husten.txt",
+        "medication_text": "Ramipril",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1875,
+        "end": 1883,
+        "confidence": 0.7443761183835422
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\3. Flankenschmerzen.txt",
+        "medication_text": "Amlodipin 5 mg einmal täglich",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1036,
+        "end": 1065,
+        "confidence": 0.710218473963738
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\3. Flankenschmerzen.txt",
+        "medication_text": "Metamizol 500 mg, 1-1-1, bei Bedarf",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2018,
+        "end": 2053,
+        "confidence": 0.8489880405587741
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\3. Flankenschmerzen.txt",
+        "medication_text": "Butylscopolamin 10 mg, 1-1-1",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2069,
+        "end": 2097,
+        "confidence": 0.7211048325939258
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\3. Flankenschmerzen.txt",
+        "medication_text": "antihypertensiven",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2189,
+        "end": 2206,
+        "confidence": 0.8036185025670931
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\3. Flankenschmerzen.txt",
+        "medication_text": "Amlodipin",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2220,
+        "end": 2229,
+        "confidence": 0.6746218575992058
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\4. Brustschmerzen.txt",
+        "medication_text": "Atorvastatin 20 mg",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 957,
+        "end": 975,
+        "confidence": 0.846648505495718
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\4. Brustschmerzen.txt",
+        "medication_text": "Metoprolol 50 mg",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 980,
+        "end": 996,
+        "confidence": 0.8605145052932484
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\4. Brustschmerzen.txt",
+        "medication_text": "sublingual und Heparin",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1699,
+        "end": 1721,
+        "confidence": 0.7031727952231728
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\4. Brustschmerzen.txt",
+        "medication_text": "Sauerstoffgabe über Nasensonde: 4 l/min",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1982,
+        "end": 2021,
+        "confidence": 0.6264074130110214
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\4. Brustschmerzen.txt",
+        "medication_text": "Morphin 5 mg i.v.",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2045,
+        "end": 2062,
+        "confidence": 0.8051080769406038
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\4. Brustschmerzen.txt",
+        "medication_text": "Thrombozytenaggregationshemmung",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2063,
+        "end": 2094,
+        "confidence": 0.6645387129918665
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\4. Brustschmerzen.txt",
+        "medication_text": "ASS 250 mg i.v.",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2096,
+        "end": 2111,
+        "confidence": 0.7591820159246406
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\4. Brustschmerzen.txt",
+        "medication_text": "Antikoagulation",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2112,
+        "end": 2127,
+        "confidence": 0.6396657374022332
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\4. Brustschmerzen.txt",
+        "medication_text": "Heparin 5000 IE i.v.",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2129,
+        "end": 2149,
+        "confidence": 0.77856322577848
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\4. Brustschmerzen.txt",
+        "medication_text": "Beta-Blocker",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2150,
+        "end": 2162,
+        "confidence": 0.5188702549228507
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\4. Brustschmerzen.txt",
+        "medication_text": "Metoprolol-Therapie mit 50 mg p.o.",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2180,
+        "end": 2214,
+        "confidence": 0.8172592972511847
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\4. Brustschmerzen.txt",
+        "medication_text": "Statintherapie",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2215,
+        "end": 2229,
+        "confidence": 0.6574010296201702
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\4. Brustschmerzen.txt",
+        "medication_text": "Atorvastatin 80 mg p.o.",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2231,
+        "end": 2254,
+        "confidence": 0.8003903405298848
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\4. Brustschmerzen.txt",
+        "medication_text": "ASS 100 mg",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 945,
+        "end": 955,
+        "confidence": 0.6811178269628961
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\5. Oberbauchschmerzen.txt",
+        "medication_text": "Lisinopril 10 mg",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 847,
+        "end": 863,
+        "confidence": 0.6345225779128955
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\5. Oberbauchschmerzen.txt",
+        "medication_text": "Magaldrat 800 mg, 1-1-1, bei Bedarf",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1619,
+        "end": 1654,
+        "confidence": 0.6993542870119726
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\5. Oberbauchschmerzen.txt",
+        "medication_text": "Pantoprazol 40 mg, 1-0-0",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1677,
+        "end": 1701,
+        "confidence": 0.7558739477917406
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\5. Oberbauchschmerzen.txt",
+        "medication_text": "Lisinopril",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1732,
+        "end": 1742,
+        "confidence": 0.719288321926181
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\6. Unterbauchschmerzen.txt",
+        "medication_text": "Antibiotische Therapie",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1665,
+        "end": 1687,
+        "confidence": 0.8665430442799694
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\6. Unterbauchschmerzen.txt",
+        "medication_text": "Ciprofloxacin 500 mg, 1-0-1",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1689,
+        "end": 1716,
+        "confidence": 0.9044633219160605
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\6. Unterbauchschmerzen.txt",
+        "medication_text": "Ibuprofen 400 mg, 1-1-1, bei Bedarf",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1740,
+        "end": 1775,
+        "confidence": 0.913240360775547
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\6. Unterbauchschmerzen.txt",
+        "medication_text": "bei Bedarf Abführmittel",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1765,
+        "end": 1788,
+        "confidence": 0.762802547387343
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\6. Unterbauchschmerzen.txt",
+        "medication_text": "Macrogol 13,7 g, 1-0-1",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1790,
+        "end": 1812,
+        "confidence": 0.7822988417707974
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\7. thorakelem Druckgefu╠êhl.txt",
+        "medication_text": "Amlodipin 10 mg",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 953,
+        "end": 968,
+        "confidence": 0.8486198656801704
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\7. thorakelem Druckgefu╠êhl.txt",
+        "medication_text": "Metformin 1000 mg zweimal täglich",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 973,
+        "end": 1006,
+        "confidence": 0.8839840388729069
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\7. thorakelem Druckgefu╠êhl.txt",
+        "medication_text": "Paracetamol 500 mg, 1-1-1, bei Bedarf",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1807,
+        "end": 1844,
+        "confidence": 0.8399800910120035
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\7. thorakelem Druckgefu╠êhl.txt",
+        "medication_text": "bei Bedarf Beruhigungsmittel",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1834,
+        "end": 1862,
+        "confidence": 0.7655374723828421
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\7. thorakelem Druckgefu╠êhl.txt",
+        "medication_text": "Diazepam 5 mg, 1-0-1, bei Bedarf",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1864,
+        "end": 1896,
+        "confidence": 0.8159603351391386
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\7. thorakelem Druckgefu╠êhl.txt",
+        "medication_text": "Amlodipin",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1927,
+        "end": 1936,
+        "confidence": 0.7784445024212172
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\7. thorakelem Druckgefu╠êhl.txt",
+        "medication_text": "Metformin",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1942,
+        "end": 1951,
+        "confidence": 0.87732186541843
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\8. Fieber.txt",
+        "medication_text": "Paracetamol 500 mg, 1-1-1, bei Bedarf",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1919,
+        "end": 1956,
+        "confidence": 0.8992836048878142
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\8. Fieber.txt",
+        "medication_text": "Ceftriaxon 2 g, 1-0-0",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1980,
+        "end": 2001,
+        "confidence": 0.7590036625822375
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\8. Fieber.txt",
+        "medication_text": "NaCl 0,9%",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2040,
+        "end": 2049,
+        "confidence": 0.8001493271460359
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\8. Fieber.txt",
+        "medication_text": "antibiotischen Therapie",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2333,
+        "end": 2356,
+        "confidence": 0.8000359764515957
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\9. Brennen beim Wasserlassen.txt",
+        "medication_text": "Antibiotische Therapie",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1757,
+        "end": 1779,
+        "confidence": 0.8540131903346172
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\9. Brennen beim Wasserlassen.txt",
+        "medication_text": "Ciprofloxacin 500 mg, 1-0-1 für 5 Tage",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1781,
+        "end": 1819,
+        "confidence": 0.914236433640902
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\9. Brennen beim Wasserlassen.txt",
+        "medication_text": "Ibuprofen 400 mg, 1-1-1",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1843,
+        "end": 1866,
+        "confidence": 0.8989954072107749
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\9. Brennen beim Wasserlassen.txt",
+        "medication_text": "Antibiotikatherapie",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2188,
+        "end": 2207,
+        "confidence": 0.5288484248159248
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\10. Erbrechen.txt",
+        "medication_text": "Lisinopril 10 mg",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 982,
+        "end": 998,
+        "confidence": 0.7013470566959428
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\10. Erbrechen.txt",
+        "medication_text": "Furosemid 20 mg",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1000,
+        "end": 1015,
+        "confidence": 0.8746055707953325
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\10. Erbrechen.txt",
+        "medication_text": "Calciumacetat 500 mg",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1020,
+        "end": 1040,
+        "confidence": 0.8948682813587959
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\10. Erbrechen.txt",
+        "medication_text": "NaCl 0,9%",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1934,
+        "end": 1943,
+        "confidence": 0.8247936885533647
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\10. Erbrechen.txt",
+        "medication_text": "Metoclopramid 10 mg, 1-1-1",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2004,
+        "end": 2030,
+        "confidence": 0.818180897164345
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\10. Erbrechen.txt",
+        "medication_text": "diuretischen Therapie",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2057,
+        "end": 2078,
+        "confidence": 0.8449217541311268
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\10. Erbrechen.txt",
+        "medication_text": "Furosemid auf 10 mg, einmal täglich",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2094,
+        "end": 2129,
+        "confidence": 0.8279463672220038
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\10. Erbrechen.txt",
+        "medication_text": "Kräutertees",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2362,
+        "end": 2373,
+        "confidence": 0.5553988005078155
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\11. Teerstuhl.txt",
+        "medication_text": "Amlodipin 5 mg",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 928,
+        "end": 942,
+        "confidence": 0.6973164530049494
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\11. Teerstuhl.txt",
+        "medication_text": "NaCl 0,9% über 8 Stunden",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2157,
+        "end": 2181,
+        "confidence": 0.7756460332856735
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\11. Teerstuhl.txt",
+        "medication_text": "Ciprofloxacin 500 mg, 1-0-1 für 7 Tage",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2224,
+        "end": 2262,
+        "confidence": 0.9354847621288375
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\11. Teerstuhl.txt",
+        "medication_text": "Eisensubstitution mit Ferrosulfat 100 mg, 1-0-1",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2309,
+        "end": 2356,
+        "confidence": 0.8012847074096263
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\12. voru╠êbergehende Bewusstlosigkeit.txt",
+        "medication_text": "Ramipril 10 mg täglich",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1044,
+        "end": 1066,
+        "confidence": 0.8772198375586886
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\12. voru╠êbergehende Bewusstlosigkeit.txt",
+        "medication_text": "Metformin 1000 mg zweimal täglich",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1126,
+        "end": 1159,
+        "confidence": 0.8475844344632962
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\12. voru╠êbergehende Bewusstlosigkeit.txt",
+        "medication_text": "Ramipril",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2593,
+        "end": 2601,
+        "confidence": 0.8347894632846525
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\12. voru╠êbergehende Bewusstlosigkeit.txt",
+        "medication_text": "Metformin",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2606,
+        "end": 2615,
+        "confidence": 0.7830897463824841
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\13. akute Nierenversage.txt",
+        "medication_text": "Lisinopril 10 mg täglich",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 866,
+        "end": 890,
+        "confidence": 0.8077911147198745
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\13. akute Nierenversage.txt",
+        "medication_text": "NaCl 0,9%",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2086,
+        "end": 2095,
+        "confidence": 0.8309707824928779
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\13. akute Nierenversage.txt",
+        "medication_text": "antihypertensive",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2155,
+        "end": 2171,
+        "confidence": 0.7937348406453832
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\13. akute Nierenversage.txt",
+        "medication_text": "Lisinopril",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2185,
+        "end": 2195,
+        "confidence": 0.7549346831048378
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\13. akute Nierenversage.txt",
+        "medication_text": "Diuretika",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2291,
+        "end": 2300,
+        "confidence": 0.7001073338882472
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\13. akute Nierenversage.txt",
+        "medication_text": "antihypertensiven Therapie bei Bedarf",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2644,
+        "end": 2681,
+        "confidence": 0.7783594635078369
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\14. Exsikkose.txt",
+        "medication_text": "Amlodipin 5 mg täglich",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 977,
+        "end": 999,
+        "confidence": 0.8422358677467466
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\14. Exsikkose.txt",
+        "medication_text": "NaCl 0,9%",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2429,
+        "end": 2438,
+        "confidence": 0.8232267344631589
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\14. Exsikkose.txt",
+        "medication_text": "Volumengabe",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2496,
+        "end": 2507,
+        "confidence": 0.5746959765822623
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\14. Exsikkose.txt",
+        "medication_text": "NaCl 0,9%",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2558,
+        "end": 2567,
+        "confidence": 0.7677107836857859
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\14. Exsikkose.txt",
+        "medication_text": "antihypertensive",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2611,
+        "end": 2627,
+        "confidence": 0.7728397707450129
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\14. Exsikkose.txt",
+        "medication_text": "Amlodipin wurde vorübergehend pausiert",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2641,
+        "end": 2679,
+        "confidence": 0.8266930431637397
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\14. Exsikkose.txt",
+        "medication_text": "antihypertensiven",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 3334,
+        "end": 3351,
+        "confidence": 0.6860268232480449
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\14. Exsikkose.txt",
+        "medication_text": "Amlodipin",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 3365,
+        "end": 3374,
+        "confidence": 0.7378505545417123
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\15. Hypoglyka╠êmie.txt",
+        "medication_text": "Metformin 1000 mg zweimal täglich",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 832,
+        "end": 865,
+        "confidence": 0.7646742865458137
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\15. Hypoglyka╠êmie.txt",
+        "medication_text": "Glukosegabe mit 20 g",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2085,
+        "end": 2105,
+        "confidence": 0.7802864172828329
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\15. Hypoglyka╠êmie.txt",
+        "medication_text": "Metformin",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2234,
+        "end": 2243,
+        "confidence": 0.8511978046465041
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\16. Palpitationen.txt",
+        "medication_text": "Amlodipin 5 mg",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 910,
+        "end": 924,
+        "confidence": 0.7292675850009118
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\16. Palpitationen.txt",
+        "medication_text": "Metoprolol 50 mg",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 929,
+        "end": 945,
+        "confidence": 0.8663733922453681
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\16. Palpitationen.txt",
+        "medication_text": "NaCl 0,9%",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2156,
+        "end": 2165,
+        "confidence": 0.8372062824895637
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\16. Palpitationen.txt",
+        "medication_text": "Kaliumchlorid",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2236,
+        "end": 2249,
+        "confidence": 0.6219004743240736
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\16. Palpitationen.txt",
+        "medication_text": "Metoprolol",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2301,
+        "end": 2311,
+        "confidence": 0.8788564858939557
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\16. Palpitationen.txt",
+        "medication_text": "antihypertensiven",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2412,
+        "end": 2429,
+        "confidence": 0.7721217313640386
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\17. Luftnot.txt",
+        "medication_text": "Ramipril 10 mg",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 922,
+        "end": 936,
+        "confidence": 0.8747274139513935
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\17. Luftnot.txt",
+        "medication_text": "Salbutamol bei Bedarf",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 941,
+        "end": 962,
+        "confidence": 0.9028853483843052
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\17. Luftnot.txt",
+        "medication_text": "Peptid",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1999,
+        "end": 2005,
+        "confidence": 0.5939714161516094
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\17. Luftnot.txt",
+        "medication_text": "Diuretikatherapie",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2389,
+        "end": 2406,
+        "confidence": 0.7756109896053022
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\17. Luftnot.txt",
+        "medication_text": "Furosemid 40 mg",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2411,
+        "end": 2426,
+        "confidence": 0.7998909979842335
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\17. Luftnot.txt",
+        "medication_text": "Sauerstoff über Nasensonde mit 2 l/min",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2452,
+        "end": 2490,
+        "confidence": 0.692200247871631
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\17. Luftnot.txt",
+        "medication_text": "Salbutamol",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2588,
+        "end": 2598,
+        "confidence": 0.8212621714535387
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\17. Luftnot.txt",
+        "medication_text": "diuretischen Therapie nach Bedarf",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2953,
+        "end": 2986,
+        "confidence": 0.8374681875199621
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\18. Ungerichteter Schwindel.txt",
+        "medication_text": "Ramipril 10 mg",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 966,
+        "end": 980,
+        "confidence": 0.7369158244649121
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\18. Ungerichteter Schwindel.txt",
+        "medication_text": "Amlodipin 5 mg",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 985,
+        "end": 999,
+        "confidence": 0.8893247087507908
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\18. Ungerichteter Schwindel.txt",
+        "medication_text": "NaCl 0,9%",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2211,
+        "end": 2220,
+        "confidence": 0.838649086463923
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\18. Ungerichteter Schwindel.txt",
+        "medication_text": "antihypertensiven",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2277,
+        "end": 2294,
+        "confidence": 0.8140346117169359
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\18. Ungerichteter Schwindel.txt",
+        "medication_text": "Betahistin 16 mg, 1-0-1",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2401,
+        "end": 2424,
+        "confidence": 0.7899360570270816
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\19. Exanthem GÇô nicht juckend.txt",
+        "medication_text": "Prednisolon 40 mg täglich für 5 Tage",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1745,
+        "end": 1781,
+        "confidence": 0.8372804019387011
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\20. Ohrenschmerzen.txt",
+        "medication_text": "antibiotische Therapie",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1531,
+        "end": 1553,
+        "confidence": 0.8261089662824097
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\20. Ohrenschmerzen.txt",
+        "medication_text": "Ciprofloxacin Ohrentropfen, 3 Tropfen, 3-mal täglich für 7 Tage",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1558,
+        "end": 1621,
+        "confidence": 0.7720474661436673
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\20. Ohrenschmerzen.txt",
+        "medication_text": "Ibuprofen 400 mg, 1-1-1",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1684,
+        "end": 1707,
+        "confidence": 0.9178489225719393
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\21.Pankreatitis.txt",
+        "medication_text": "Metformin 1000 mg zweimal täglich",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1030,
+        "end": 1063,
+        "confidence": 0.8819355053356153
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\21.Pankreatitis.txt",
+        "medication_text": "NaCl 0,9%",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2345,
+        "end": 2354,
+        "confidence": 0.8447262958376534
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\21.Pankreatitis.txt",
+        "medication_text": "Metamizol 500 mg intravenös, bei Bedarf",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2406,
+        "end": 2445,
+        "confidence": 0.8713388817776737
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\21.Pankreatitis.txt",
+        "medication_text": "Antibiose",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2501,
+        "end": 2510,
+        "confidence": 0.7079613232316933
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\21.Pankreatitis.txt",
+        "medication_text": "Ceftriaxon 2 g täglich",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2515,
+        "end": 2537,
+        "confidence": 0.7779818668136187
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\21.Pankreatitis.txt",
+        "medication_text": "Ramipril 10 mg",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1011,
+        "end": 1025,
+        "confidence": 0.8699796775873639
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\22. Gastritis.txt",
+        "medication_text": "Schmerzmittel",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 824,
+        "end": 837,
+        "confidence": 0.6437366255434628
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\22. Gastritis.txt",
+        "medication_text": "Ramipril 10 mg täglich",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 946,
+        "end": 968,
+        "confidence": 0.8866679092620683
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\22. Gastritis.txt",
+        "medication_text": "Pantoprazol 40 mg täglich",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1933,
+        "end": 1958,
+        "confidence": 0.7644146850104482
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\22. Gastritis.txt",
+        "medication_text": "Antazida",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1959,
+        "end": 1967,
+        "confidence": 0.7074385245559561
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\22. Gastritis.txt",
+        "medication_text": "Magaldrat 800 mg, 1-1-1",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1969,
+        "end": 1992,
+        "confidence": 0.7229115158800763
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\22. Gastritis.txt",
+        "medication_text": "Antirheumatika",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2143,
+        "end": 2157,
+        "confidence": 0.5219311616884265
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\22. Gastritis.txt",
+        "medication_text": "Koffein",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2428,
+        "end": 2435,
+        "confidence": 0.5177956280574295
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\23. Choledocholithiasis.txt",
+        "medication_text": "Amlodipin 5 mg täglich",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 947,
+        "end": 969,
+        "confidence": 0.8811278356467079
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\23. Choledocholithiasis.txt",
+        "medication_text": "Antibiotische Therapie",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1879,
+        "end": 1901,
+        "confidence": 0.8145284024094426
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\23. Choledocholithiasis.txt",
+        "medication_text": "Ceftriaxon 2 g täglich intravenös",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1906,
+        "end": 1939,
+        "confidence": 0.8933697797411131
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\23. Choledocholithiasis.txt",
+        "medication_text": "Metamizol 500 mg intravenös, bei Bedarf",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1966,
+        "end": 2005,
+        "confidence": 0.9087905418380245
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\23. Choledocholithiasis.txt",
+        "medication_text": "NaCl 0,9%",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2047,
+        "end": 2056,
+        "confidence": 0.8573855296200562
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\24. Cholangitis.txt",
+        "medication_text": "Dimenhydrinat 50 mg intravenös, bei Bedarf",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2008,
+        "end": 2050,
+        "confidence": 0.8928300360161614
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\24. Cholangitis.txt",
+        "medication_text": "NaCl 0,9%",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2092,
+        "end": 2101,
+        "confidence": 0.8735567550479515
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\24. Cholangitis.txt",
+        "medication_text": "Paracetamol 500 mg, bei Bedarf",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2152,
+        "end": 2182,
+        "confidence": 0.9109883573279735
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\25. Cholzystits.txt",
+        "medication_text": "Lisinopril 10 mg täglich",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 893,
+        "end": 917,
+        "confidence": 0.8341451872307556
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\25. Cholzystits.txt",
+        "medication_text": "Antibiotische Therapie",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1960,
+        "end": 1982,
+        "confidence": 0.8145284024094426
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\25. Cholzystits.txt",
+        "medication_text": "Ceftriaxon 2 g täglich intravenös",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1987,
+        "end": 2020,
+        "confidence": 0.8933697797411131
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\25. Cholzystits.txt",
+        "medication_text": "Metamizol 500 mg intravenös, bei Bedarf",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2047,
+        "end": 2086,
+        "confidence": 0.9087905418380245
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\25. Cholzystits.txt",
+        "medication_text": "NaCl 0,9%",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2128,
+        "end": 2137,
+        "confidence": 0.8573855296200562
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\26. CHolezytolithiasis.txt",
+        "medication_text": "Amlodipin 5 mg täglich",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 865,
+        "end": 887,
+        "confidence": 0.8887824775100748
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\26. CHolezytolithiasis.txt",
+        "medication_text": "Antibiotische Therapie",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1913,
+        "end": 1935,
+        "confidence": 0.8110791873595083
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\26. CHolezytolithiasis.txt",
+        "medication_text": "Ceftriaxon 2 g täglich intravenös",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1940,
+        "end": 1973,
+        "confidence": 0.8932869440710975
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\26. CHolezytolithiasis.txt",
+        "medication_text": "Metamizol 500 mg intravenös, bei Bedarf",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2000,
+        "end": 2039,
+        "confidence": 0.9087905418380245
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\26. CHolezytolithiasis.txt",
+        "medication_text": "NaCl 0,9%",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2081,
+        "end": 2090,
+        "confidence": 0.8573855296200562
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\27. Urolithiasis Nierenkolik.txt",
+        "medication_text": "Erythrozyten",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1776,
+        "end": 1788,
+        "confidence": 0.6489894769100294
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\27. Urolithiasis Nierenkolik.txt",
+        "medication_text": "Metamizol 500 mg intravenös, bei Bedarf",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1989,
+        "end": 2028,
+        "confidence": 0.9157995965845418
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\27. Urolithiasis Nierenkolik.txt",
+        "medication_text": "Butylscopolamin 20 mg intravenös, bei Bedarf",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2057,
+        "end": 2101,
+        "confidence": 0.9029266030644819
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\27. Urolithiasis Nierenkolik.txt",
+        "medication_text": "NaCl 0,9%",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2143,
+        "end": 2152,
+        "confidence": 0.8688884432121843
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\27. Urolithiasis Nierenkolik.txt",
+        "medication_text": "Antibiotische Therapie",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2177,
+        "end": 2199,
+        "confidence": 0.8387432509341842
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\27. Urolithiasis Nierenkolik.txt",
+        "medication_text": "Ciprofloxacin 500 mg, 1-0-1",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2204,
+        "end": 2231,
+        "confidence": 0.9203723935358082
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\28. Pneumonie.txt",
+        "medication_text": "Sauerstoffgabe über Nasensonde mit 2 l/min",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2118,
+        "end": 2160,
+        "confidence": 0.6703525445617625
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\28. Pneumonie.txt",
+        "medication_text": "NaCl 0,9%",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2231,
+        "end": 2240,
+        "confidence": 0.7786641491646731
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\28. Pneumonie.txt",
+        "medication_text": "Ramipril 10 mg täglich",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 983,
+        "end": 1005,
+        "confidence": 0.8685899303042934
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\28. Pneumonie.txt",
+        "medication_text": "Salbutamol bei Bedarf",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1010,
+        "end": 1031,
+        "confidence": 0.87133950317145
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\28. Pneumonie.txt",
+        "medication_text": "Antibiotische Therapie",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1973,
+        "end": 1995,
+        "confidence": 0.6864068102249026
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\28. Pneumonie.txt",
+        "medication_text": "Amoxicillin/Clavulansäure 1,2 g dreimal täglich intravenös",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2000,
+        "end": 2058,
+        "confidence": 0.8928224302341948
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\28. Pneumonie.txt",
+        "medication_text": "Paracetamol 500 mg, bei Bedarf",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2087,
+        "end": 2117,
+        "confidence": 0.9045179790471266
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\29. Pyelonephritis.txt",
+        "medication_text": "Antibiotische Therapie",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1878,
+        "end": 1900,
+        "confidence": 0.8145284024094426
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\29. Pyelonephritis.txt",
+        "medication_text": "Ceftriaxon 2 g täglich intravenös",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1905,
+        "end": 1938,
+        "confidence": 0.8933697797411131
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\29. Pyelonephritis.txt",
+        "medication_text": "Metamizol 500 mg intravenös, bei Bedarf",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1965,
+        "end": 2004,
+        "confidence": 0.9087905418380245
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\29. Pyelonephritis.txt",
+        "medication_text": "NaCl 0,9%",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2046,
+        "end": 2055,
+        "confidence": 0.8655634490388574
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\29. Pyelonephritis.txt",
+        "medication_text": "Paracetamol 500 mg, bei Bedarf",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2108,
+        "end": 2138,
+        "confidence": 0.8932088368987495
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\30. Zystitis (Harnwegsinfektion).txt",
+        "medication_text": "Antibiotische Therapie",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1855,
+        "end": 1877,
+        "confidence": 0.8352233540492902
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\30. Zystitis (Harnwegsinfektion).txt",
+        "medication_text": "Ciprofloxacin 500 mg zweimal täglich oral für 7 Tage",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1882,
+        "end": 1934,
+        "confidence": 0.9024670998575175
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\30. Zystitis (Harnwegsinfektion).txt",
+        "medication_text": "Paracetamol 500 mg, bei Bedarf",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1961,
+        "end": 1991,
+        "confidence": 0.923500007990277
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\30. Zystitis (Harnwegsinfektion).txt",
+        "medication_text": "NaCl 0,9%",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2033,
+        "end": 2042,
+        "confidence": 0.8344346798247106
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\31. Erysipel.txt",
+        "medication_text": "Antibiotische Therapie",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1947,
+        "end": 1969,
+        "confidence": 0.7440988482242203
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\31. Erysipel.txt",
+        "medication_text": "Penicillin V 1,2 Millionen Einheiten dreimal täglich oral für 10 Tage",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1974,
+        "end": 2043,
+        "confidence": 0.8382218735811777
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\31. Erysipel.txt",
+        "medication_text": "Ibuprofen 400 mg, bei Bedarf",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2070,
+        "end": 2098,
+        "confidence": 0.9048395541099384
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\32. Akute Bronchitis.txt",
+        "medication_text": "Paracetamol 500 mg, bei Bedarf Inhalation",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2205,
+        "end": 2246,
+        "confidence": 0.9051612776608344
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\32. Akute Bronchitis.txt",
+        "medication_text": "Salbutamol",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2251,
+        "end": 2261,
+        "confidence": 0.8461835118003048
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\32. Akute Bronchitis.txt",
+        "medication_text": "Dextromethorphan",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2323,
+        "end": 2339,
+        "confidence": 0.7686233234063702
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\32. Akute Bronchitis.txt",
+        "medication_text": "Inhalation mit Salbutamol bei Bedarf",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 3121,
+        "end": 3157,
+        "confidence": 0.8605896454862164
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\33. Appendizitis.txt",
+        "medication_text": "NaCl 0,9%",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2076,
+        "end": 2085,
+        "confidence": 0.8735567550479515
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\33. Appendizitis.txt",
+        "medication_text": "Paracetamol 500 mg, bei Bedarf",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2136,
+        "end": 2166,
+        "confidence": 0.9238050629135339
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\33. Appendizitis.txt",
+        "medication_text": "Dimenhydrinat 50 mg intravenös, bei Bedarf",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1992,
+        "end": 2034,
+        "confidence": 0.8921112692355802
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\34. Akute Divertikulitis.txt",
+        "medication_text": "Lisinopril 10 mg täglich",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 895,
+        "end": 919,
+        "confidence": 0.8045074574781083
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\34. Akute Divertikulitis.txt",
+        "medication_text": "Antibiotische Therapie",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1921,
+        "end": 1943,
+        "confidence": 0.8386925868522438
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\34. Akute Divertikulitis.txt",
+        "medication_text": "Ciprofloxacin 500 mg zweimal täglich oral für 10 Tage",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1948,
+        "end": 2001,
+        "confidence": 0.9081598114188459
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\34. Akute Divertikulitis.txt",
+        "medication_text": "Metamizol 500 mg, bei Bedarf",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2028,
+        "end": 2056,
+        "confidence": 0.9381069515452705
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\34. Akute Divertikulitis.txt",
+        "medication_text": "NaCl 0,9%",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2086,
+        "end": 2095,
+        "confidence": 0.8708212226348441
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\35. Tonsilitis.txt",
+        "medication_text": "Antibiotische Therapie",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2271,
+        "end": 2293,
+        "confidence": 0.6525812818670356
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\35. Tonsilitis.txt",
+        "medication_text": "Amoxicillin/Clavulansäure 875 mg/125 mg",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2298,
+        "end": 2337,
+        "confidence": 0.8626486406537233
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\35. Tonsilitis.txt",
+        "medication_text": "Paracetamol 500 mg, bei Bedarf",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2417,
+        "end": 2447,
+        "confidence": 0.9474680067645209
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\36. Hyperglyka╠êmie.txt",
+        "medication_text": "Metformin 1000 mg zweimal täglich",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 824,
+        "end": 857,
+        "confidence": 0.8364638446775021
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\36. Hyperglyka╠êmie.txt",
+        "medication_text": "NaCl 0,9%",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1937,
+        "end": 1946,
+        "confidence": 0.8526349559411717
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\36. Hyperglyka╠êmie.txt",
+        "medication_text": "Insulininfusion mit 1 Einheit/Stunde",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2150,
+        "end": 2186,
+        "confidence": 0.6216932041173723
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\37. Hypoglyka╠êmie_2.txt",
+        "medication_text": "Insulin",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 731,
+        "end": 738,
+        "confidence": 0.7694233348592922
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\37. Hypoglyka╠êmie_2.txt",
+        "medication_text": "Insulin glargin",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 838,
+        "end": 853,
+        "confidence": 0.8176922470510467
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\37. Hypoglyka╠êmie_2.txt",
+        "medication_text": "Insulin lispro",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 860,
+        "end": 874,
+        "confidence": 0.7899290340407575
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\37. Hypoglyka╠êmie_2.txt",
+        "medication_text": "Glukosegabe mit 20 g",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1824,
+        "end": 1844,
+        "confidence": 0.7204494698608784
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\37. Hypoglyka╠êmie_2.txt",
+        "medication_text": "Glukosegabe",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1882,
+        "end": 1893,
+        "confidence": 0.7428080021018707
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\37. Hypoglyka╠êmie_2.txt",
+        "medication_text": "Insulindosis",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2659,
+        "end": 2671,
+        "confidence": 0.6804260329724654
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\38. Alkoholintoxikation.txt",
+        "medication_text": "NaCl 0,9%",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2225,
+        "end": 2234,
+        "confidence": 0.8527100207592638
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\38. Alkoholintoxikation.txt",
+        "medication_text": "Thiamin 100 mg intravenös",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2277,
+        "end": 2302,
+        "confidence": 0.704118230947224
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\38. Alkoholintoxikation.txt",
+        "medication_text": "Ondansetron 4 mg intravenös bei Bedarf",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2492,
+        "end": 2530,
+        "confidence": 0.7859293477832711
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\39. Gastroenteritis.txt",
+        "medication_text": "NaCl 0,9%",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2141,
+        "end": 2150,
+        "confidence": 0.8601785355591304
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\39. Gastroenteritis.txt",
+        "medication_text": "Metamizol 500 mg intravenös, bei Bedarf",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2220,
+        "end": 2259,
+        "confidence": 0.8713388817776737
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\40. Akutes Koronarsyndrom.txt",
+        "medication_text": "Enzyme",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1891,
+        "end": 1897,
+        "confidence": 0.688274588026143
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\40. Akutes Koronarsyndrom.txt",
+        "medication_text": "Sauerstoffgabe über Nasensonde mit 4 l/min",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2057,
+        "end": 2099,
+        "confidence": 0.5491268506385479
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\40. Akutes Koronarsyndrom.txt",
+        "medication_text": "ASS 300 mg",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2162,
+        "end": 2172,
+        "confidence": 0.8969745691047816
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\40. Akutes Koronarsyndrom.txt",
+        "medication_text": "Clopidogrel 600 mg",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2177,
+        "end": 2195,
+        "confidence": 0.9048692919890093
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\40. Akutes Koronarsyndrom.txt",
+        "medication_text": "Thrombozytenaggregationshemmung",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2200,
+        "end": 2231,
+        "confidence": 0.8375194148375787
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\40. Akutes Koronarsyndrom.txt",
+        "medication_text": "Morphin 5 mg intravenös",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2258,
+        "end": 2281,
+        "confidence": 0.9241780891186839
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\40. Akutes Koronarsyndrom.txt",
+        "medication_text": "Antikoagulation",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2401,
+        "end": 2416,
+        "confidence": 0.6827239834638498
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\40. Akutes Koronarsyndrom.txt",
+        "medication_text": "Enoxaparin 1 mg/kg",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2421,
+        "end": 2439,
+        "confidence": 0.8264200226342698
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\40. Akutes Koronarsyndrom.txt",
+        "medication_text": "subkutan Beta-Blocker",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2454,
+        "end": 2475,
+        "confidence": 0.7287871041593583
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\40. Akutes Koronarsyndrom.txt",
+        "medication_text": "Metoprolol 5 mg intravenös",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2480,
+        "end": 2506,
+        "confidence": 0.7313327629250044
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\40. Akutes Koronarsyndrom.txt",
+        "medication_text": "Thrombozytenaggregationshemmung",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 3477,
+        "end": 3508,
+        "confidence": 0.7022510196122611
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\40. Akutes Koronarsyndrom.txt",
+        "medication_text": "Antikoagulation",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 3513,
+        "end": 3528,
+        "confidence": 0.787983295599996
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\40. Akutes Koronarsyndrom.txt",
+        "medication_text": "antihypertensiven",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 3573,
+        "end": 3590,
+        "confidence": 0.700827985130173
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\40. Akutes Koronarsyndrom.txt",
+        "medication_text": "Ramipril 10 mg",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 861,
+        "end": 875,
+        "confidence": 0.871433413277794
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\40. Akutes Koronarsyndrom.txt",
+        "medication_text": "Atorvastatin 20 mg täglich",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 880,
+        "end": 906,
+        "confidence": 0.9150364131670073
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\41. Obere Gastrointestinale Blutung.txt",
+        "medication_text": "Schmerzmittel",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 899,
+        "end": 912,
+        "confidence": 0.6108686149409169
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\41. Obere Gastrointestinale Blutung.txt",
+        "medication_text": "Pantoprazol 40 mg intravenös zweimal täglich",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1840,
+        "end": 1884,
+        "confidence": 0.7761812763336366
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\41. Obere Gastrointestinale Blutung.txt",
+        "medication_text": "Dimenhydrinat 50 mg intravenös, bei Bedarf",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1912,
+        "end": 1954,
+        "confidence": 0.899689349672095
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\41. Obere Gastrointestinale Blutung.txt",
+        "medication_text": "NaCl 0,9%",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1996,
+        "end": 2005,
+        "confidence": 0.8735567550479515
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\41. Obere Gastrointestinale Blutung.txt",
+        "medication_text": "Paracetamol 500 mg, bei Bedarf",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2056,
+        "end": 2086,
+        "confidence": 0.9333576145565111
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\41. Obere Gastrointestinale Blutung.txt",
+        "medication_text": "Bluttransfusion",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2991,
+        "end": 3006,
+        "confidence": 0.6895502271471827
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\42. Untere Gastrointestinale Blutung.txt",
+        "medication_text": "Amlodipin 5 mg täglich",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 935,
+        "end": 957,
+        "confidence": 0.8723329217397489
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\42. Untere Gastrointestinale Blutung.txt",
+        "medication_text": "NaCl 0,9%",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2055,
+        "end": 2064,
+        "confidence": 0.8269057373515503
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\42. Untere Gastrointestinale Blutung.txt",
+        "medication_text": "Pantoprazol 40 mg",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2157,
+        "end": 2174,
+        "confidence": 0.7122063817827112
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\42. Untere Gastrointestinale Blutung.txt",
+        "medication_text": "Eisenpräparat (Ferrum Hausmann) 100 mg intravenös",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2229,
+        "end": 2278,
+        "confidence": 0.6499681050329337
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\42. Untere Gastrointestinale Blutung.txt",
+        "medication_text": "Ceftriaxon 2 g täglich intravenös",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2331,
+        "end": 2364,
+        "confidence": 0.8520720500966706
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\42. Untere Gastrointestinale Blutung.txt",
+        "medication_text": "Eisensubstitution",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2781,
+        "end": 2798,
+        "confidence": 0.8022954522850131
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\42. Untere Gastrointestinale Blutung.txt",
+        "medication_text": "Eisenpräparate",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 3008,
+        "end": 3022,
+        "confidence": 0.6896678621554413
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\43. Vorhofflimmern.txt",
+        "medication_text": "Lisinopril 10 mg",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 942,
+        "end": 958,
+        "confidence": 0.8201272424497017
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\43. Vorhofflimmern.txt",
+        "medication_text": "Metformin 1000 mg zweimal täglich",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 963,
+        "end": 996,
+        "confidence": 0.8808125511142646
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\43. Vorhofflimmern.txt",
+        "medication_text": "Enzyme",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1854,
+        "end": 1860,
+        "confidence": 0.6898531518413468
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\43. Vorhofflimmern.txt",
+        "medication_text": "Antikoagulation",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2022,
+        "end": 2037,
+        "confidence": 0.653226768989322
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\43. Vorhofflimmern.txt",
+        "medication_text": "Heparin 5000 IE intravenös",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2042,
+        "end": 2068,
+        "confidence": 0.8158584627883185
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\43. Vorhofflimmern.txt",
+        "medication_text": "Metoprolol 5 mg intravenös",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2136,
+        "end": 2162,
+        "confidence": 0.7422193875260035
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\43. Vorhofflimmern.txt",
+        "medication_text": "Digoxin 0,25 mg intravenös",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2222,
+        "end": 2248,
+        "confidence": 0.744875506556039
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\43. Vorhofflimmern.txt",
+        "medication_text": "Antikoagulation",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2981,
+        "end": 2996,
+        "confidence": 0.7374698533123865
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\43. Vorhofflimmern.txt",
+        "medication_text": "Rivaroxaban 20 mg einmal täglich",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 3001,
+        "end": 3033,
+        "confidence": 0.826052295077048
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\43. Vorhofflimmern.txt",
+        "medication_text": "Metoprolol 50 mg zweimal täglich",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 3072,
+        "end": 3104,
+        "confidence": 0.7566826260521974
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\44. Synkope.txt",
+        "medication_text": "Ramipril 5 mg täglich",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 973,
+        "end": 994,
+        "confidence": 0.9067171831946761
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\44. Synkope.txt",
+        "medication_text": "Enzyme",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1819,
+        "end": 1825,
+        "confidence": 0.7014633861504298
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\44. Synkope.txt",
+        "medication_text": "NaCl 0,9%",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2025,
+        "end": 2034,
+        "confidence": 0.8477121385187157
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\44. Synkope.txt",
+        "medication_text": "antihypertensiven",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2091,
+        "end": 2108,
+        "confidence": 0.7908875526411028
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\44. Synkope.txt",
+        "medication_text": "Ramipril auf 2,5 mg täglich",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2133,
+        "end": 2160,
+        "confidence": 0.8177963701987886
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\45. Akutes Koronarsyndrom  (incl. Ausschluss myokardiale Ischa╠êmie).txt",
+        "medication_text": "Ramipril 10 mg",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 887,
+        "end": 901,
+        "confidence": 0.871433413277794
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\45. Akutes Koronarsyndrom  (incl. Ausschluss myokardiale Ischa╠êmie).txt",
+        "medication_text": "Atorvastatin 20 mg täglich",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 906,
+        "end": 932,
+        "confidence": 0.9153413620789894
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\45. Akutes Koronarsyndrom  (incl. Ausschluss myokardiale Ischa╠êmie).txt",
+        "medication_text": "Enzyme",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1904,
+        "end": 1910,
+        "confidence": 0.6273160548567358
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\45. Akutes Koronarsyndrom  (incl. Ausschluss myokardiale Ischa╠êmie).txt",
+        "medication_text": "Troponin-T",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1936,
+        "end": 1946,
+        "confidence": 0.540240851494076
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\45. Akutes Koronarsyndrom  (incl. Ausschluss myokardiale Ischa╠êmie).txt",
+        "medication_text": "Sauerstoffgabe über Nasensonde mit 4 l/min",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2120,
+        "end": 2162,
+        "confidence": 0.5491268506385479
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\45. Akutes Koronarsyndrom  (incl. Ausschluss myokardiale Ischa╠êmie).txt",
+        "medication_text": "ASS 300 mg",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2225,
+        "end": 2235,
+        "confidence": 0.8969745691047816
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\45. Akutes Koronarsyndrom  (incl. Ausschluss myokardiale Ischa╠êmie).txt",
+        "medication_text": "Clopidogrel 600 mg",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2240,
+        "end": 2258,
+        "confidence": 0.9048692919890093
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\45. Akutes Koronarsyndrom  (incl. Ausschluss myokardiale Ischa╠êmie).txt",
+        "medication_text": "Thrombozytenaggregationshemmung",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2263,
+        "end": 2294,
+        "confidence": 0.8375194148375787
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\45. Akutes Koronarsyndrom  (incl. Ausschluss myokardiale Ischa╠êmie).txt",
+        "medication_text": "Morphin 5 mg intravenös",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2321,
+        "end": 2344,
+        "confidence": 0.9241780891186839
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\45. Akutes Koronarsyndrom  (incl. Ausschluss myokardiale Ischa╠êmie).txt",
+        "medication_text": "Antikoagulation",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2464,
+        "end": 2479,
+        "confidence": 0.6827239834638498
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\45. Akutes Koronarsyndrom  (incl. Ausschluss myokardiale Ischa╠êmie).txt",
+        "medication_text": "Enoxaparin 1 mg/kg",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2484,
+        "end": 2502,
+        "confidence": 0.8264200226342698
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\45. Akutes Koronarsyndrom  (incl. Ausschluss myokardiale Ischa╠êmie).txt",
+        "medication_text": "subkutan Beta-Blocker",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2517,
+        "end": 2538,
+        "confidence": 0.7287871041593583
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\45. Akutes Koronarsyndrom  (incl. Ausschluss myokardiale Ischa╠êmie).txt",
+        "medication_text": "Metoprolol 5 mg intravenös",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2543,
+        "end": 2569,
+        "confidence": 0.7313327629250044
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\45. Akutes Koronarsyndrom  (incl. Ausschluss myokardiale Ischa╠êmie).txt",
+        "medication_text": "Thrombozytenaggregationshemmung",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 3546,
+        "end": 3577,
+        "confidence": 0.7022510196122611
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\45. Akutes Koronarsyndrom  (incl. Ausschluss myokardiale Ischa╠êmie).txt",
+        "medication_text": "Antikoagulation",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 3582,
+        "end": 3597,
+        "confidence": 0.787983295599996
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\45. Akutes Koronarsyndrom  (incl. Ausschluss myokardiale Ischa╠êmie).txt",
+        "medication_text": "antihypertensiven",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 3642,
+        "end": 3659,
+        "confidence": 0.700827985130173
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\46. Akutes Nierenversagen bzw. Exsikkose.txt",
+        "medication_text": "Metformin 1000 mg zweimal täglich",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 901,
+        "end": 934,
+        "confidence": 0.8838474472370059
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\46. Akutes Nierenversagen bzw. Exsikkose.txt",
+        "medication_text": "NaCl 0,9%",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2067,
+        "end": 2076,
+        "confidence": 0.8529441684983667
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\46. Akutes Nierenversagen bzw. Exsikkose.txt",
+        "medication_text": "Diabetestherapie: Metformin abgesetzt",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2178,
+        "end": 2215,
+        "confidence": 0.7059843574616264
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\46. Akutes Nierenversagen bzw. Exsikkose.txt",
+        "medication_text": "antihypertensiven",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2295,
+        "end": 2312,
+        "confidence": 0.7563839566581738
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\46. Akutes Nierenversagen bzw. Exsikkose.txt",
+        "medication_text": "Lisinopril Elektrolytkontrollen alle 4 Stunden",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2326,
+        "end": 2372,
+        "confidence": 0.5948436734256638
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\46. Akutes Nierenversagen bzw. Exsikkose.txt",
+        "medication_text": "antihypertensiven",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2954,
+        "end": 2971,
+        "confidence": 0.7421930308472957
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\46. Akutes Nierenversagen bzw. Exsikkose.txt",
+        "medication_text": "Lisinopril 10 mg",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 880,
+        "end": 896,
+        "confidence": 0.8201272424497017
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\47. Hepatitis.txt",
+        "medication_text": "Paracetamol 500 mg bei Bedarf",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2269,
+        "end": 2298,
+        "confidence": 0.8801965268555675
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\48. Koprostase GÇô Ausschluss Ileus.txt",
+        "medication_text": "Laxantien",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 899,
+        "end": 908,
+        "confidence": 0.6169039843508344
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\48. Koprostase GÇô Ausschluss Ileus.txt",
+        "medication_text": "Lisinopril 10 mg",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 994,
+        "end": 1010,
+        "confidence": 0.7927167333495989
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\48. Koprostase GÇô Ausschluss Ileus.txt",
+        "medication_text": "Atorvastatin 20 mg täglich",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1015,
+        "end": 1041,
+        "confidence": 0.8915507813468044
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\48. Koprostase GÇô Ausschluss Ileus.txt",
+        "medication_text": "Laxantien",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2323,
+        "end": 2332,
+        "confidence": 0.7325901488252603
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\48. Koprostase GÇô Ausschluss Ileus.txt",
+        "medication_text": "Lactulose 10 g dreimal täglich)",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2334,
+        "end": 2365,
+        "confidence": 0.737267472127542
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\48. Koprostase GÇô Ausschluss Ileus.txt",
+        "medication_text": "Laxantien",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 3175,
+        "end": 3184,
+        "confidence": 0.6460696494408801
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\49. LAE.txt",
+        "medication_text": "Ramipril 10 mg",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 888,
+        "end": 902,
+        "confidence": 0.8686222861926413
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\49. LAE.txt",
+        "medication_text": "Metformin 1000 mg zweimal täglich",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 907,
+        "end": 940,
+        "confidence": 0.8928560447789661
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\49. LAE.txt",
+        "medication_text": "Sauerstoffgabe über Nasensonde mit 2 l/min",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2172,
+        "end": 2214,
+        "confidence": 0.5598657725841142
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\49. LAE.txt",
+        "medication_text": "Paracetamol 500 mg, bei Bedarf",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2282,
+        "end": 2312,
+        "confidence": 0.8919768881620682
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\49. LAE.txt",
+        "medication_text": "Enoxaparin 40 mg subkutan einmal täglich",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2342,
+        "end": 2382,
+        "confidence": 0.9081269925255304
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\49. LAE.txt",
+        "medication_text": "Sauerstoffgabe",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 2676,
+        "end": 2690,
+        "confidence": 0.7197722487871946
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\49. LAE.txt",
+        "medication_text": "antihypertensiven",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 3142,
+        "end": 3159,
+        "confidence": 0.7077892970527312
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\50. Akute Urtikaria.txt",
+        "medication_text": "Cetirizin 10 mg einmal täglich oral",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1785,
+        "end": 1820,
+        "confidence": 0.7596053346834625
+    },
+    {
+        "document": "c:\\Users\\pelin\\Projects\\Project_Seminar_MDS\\Datensatz\\50. Akute Urtikaria.txt",
+        "medication_text": "Prednisolon 20 mg einmal täglich oral für fünf Tage",
+        "standardized_name": null,
+        "concept_id": null,
+        "begin": 1865,
+        "end": 1916,
+        "confidence": 0.7875138463246163
+    }
+]
