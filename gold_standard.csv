@@ -1,0 +1,121 @@
+﻿filename,medication
+1. Halsschmerzen Schluckbeschwerden.txt,"Paracetamol 500 mg, 1-0-1, bei Bedarf"
+1. Halsschmerzen Schluckbeschwerden.txt,"Chlorhexidin 0,2%, 2-3 mal täglich"
+2. Husten.txt,10 mg Ramipril
+2. Husten.txt,"Dextromethorphan 15 mg, 1-0-1, bei Bedarf"
+2. Husten.txt,"Salbutamol 100 µg, 1-2 Hübe bei Bedarf, max. 4-mal täglich"
+3. Flankenschmerzen.txt,Amlodipin 5 mg einmal täglich
+3. Flankenschmerzen.txt,"Metamizol 500 mg, 1-1-1, bei Bedarf"
+3. Flankenschmerzen.txt,"Butylscopolamin 10 mg, 1-1-1, bei Bedarf"
+4. Brustschmerzen.txt,Sauerstoff über Nasensonde mit 4 l/min
+4. Brustschmerzen.txt,ASS 100 mg 
+4. Brustschmerzen.txt,Atorvastatin 20 mg
+4. Brustschmerzen.txt,Metoprolol 50 mg
+4. Brustschmerzen.txt,Nitroglycerin sublingual 
+4. Brustschmerzen.txt,Morphin 5 mg i.v.
+4. Brustschmerzen.txt,ASS 250 mg i.v.
+4. Brustschmerzen.txt,Heparin 5000 IE i.v.
+4. Brustschmerzen.txt,Metoprolol 50 mg p.o.
+4. Brustschmerzen.txt,Atorvastatin 80 mg p.o.
+5. Oberbauchschmerzen.txt,Lisinopril 10 mg
+5. Oberbauchschmerzen.txt,"Magaldrat 800 mg, 1-1-1, bei Bedarf"
+5. Oberbauchschmerzen.txt,"Pantoprazol 40 mg, 1-0-0"
+5. Oberbauchschmerzen.txt,Lisinopril
+6. Unterbauchschmerzen.txt,"Ciprofloxacin 500 mg, 1-0-1"
+6. Unterbauchschmerzen.txt,"Ibuprofen 400 mg, 1-1-1, bei Bedarf"
+6. Unterbauchschmerzen.txt,"Macrogol 13,7 g, 1-0-1, bei Bedarf"
+7. thorakelem Druckgefühl.txt,Amlodipin 10 mg
+7. thorakelem Druckgefühl.txt,Metformin 1000 mg zweimal täglich
+7. thorakelem Druckgefühl.txt,"Paracetamol 500 mg, 1-1-1, bei Bedarf"
+7. thorakelem Druckgefühl.txt,"Diazepam 5 mg, 1-0-1, bei Bedarf"
+8. Fieber.txt,"Paracetamol 500 mg, 1-1-1, bei Bedarf"
+8. Fieber.txt,"Ceftriaxon 2 g, 1-0-0, intravenös"
+8. Fieber.txt,"NaCl 0,9%, 1000 ml über 8 Stunden, intravenös"
+9. Brennen beim Wasserlassen.txt,"Ciprofloxacin 500 mg, 1-0-1 für 5 Tage"
+9. Brennen beim Wasserlassen.txt,"Ibuprofen 400 mg, 1-1-1, bei Bedarf"
+10. Erbrechen.txt,Lisinopril 10 mg
+10. Erbrechen.txt,Furosemid 20 mg
+10. Erbrechen.txt,Calciumacetat 500 mg
+10. Erbrechen.txt,"NaCl 0,9%, 1000 ml über 8 Stunden, intravenös"
+10. Erbrechen.txt,"Metoclopramid 10 mg, 1-1-1, intravenös"
+10. Erbrechen.txt,"Furosemid 10 mg, einmal täglich"
+11. Teerstuhl.txt,Amlodipin 5 mg
+11. Teerstuhl.txt,"NaCl 0,9% 1000 ml über 8 Stunden, intravenös"
+11. Teerstuhl.txt,"Ciprofloxacin 500 mg, 1-0-1 für 7 Tage"
+11. Teerstuhl.txt,"Ferrosulfat 100 mg, 1-0-1"
+12. vorübergehende Bewusstlosigkeit.txt,Ramipril 10 mg täglich
+12. vorübergehende Bewusstlosigkeit.txt,Metformin 1000 mg zweimal täglich
+13. akute Nierenversage.txt,Lisinopril 10 mg täglich
+13. akute Nierenversage.txt,"NaCl 0,9%, 1000 ml über 4 Stunden"
+14. Exsikkose.txt,Amlodipin 5 mg täglich
+14. Exsikkose.txt,"NaCl 0,9%, 1000 ml über 4 Stunden"
+15. Hypoglykämie.txt,Metformin 1000 mg zweimal täglich
+16. Palpitationen.txt,Amlodipin 5 mg 
+16. Palpitationen.txt,Metoprolol 50 mg 
+16. Palpitationen.txt,"NaCl 0,9% 500 ml über 2 Stunden, intravenös"
+16. Palpitationen.txt,Kaliumchlorid
+17. Luftnot.txt,Ramipril 10 mg
+17. Luftnot.txt,Salbutamol bei Bedarf
+17. Luftnot.txt,"Furosemid 40 mg,  intravenös"
+17. Luftnot.txt,Sauerstoff über Nasensonde mit 2 l/min
+18. Ungerichteter Schwindel.txt,Ramipril 10 mg 
+18. Ungerichteter Schwindel.txt,Amlodipin 5 mg 
+18. Ungerichteter Schwindel.txt,"NaCl 0,9% 500 ml über 4 Stunden, intravenös"
+18. Ungerichteter Schwindel.txt,"Betahistin 16 mg, 1-0-1"
+19. Exanthem-nicht juckend.txt,Prednisolon 40 mg täglich für 5 Tage
+20. Ohrenschmerzen.txt,"Ciprofloxacin Ohrentropfen, 3 Tropfen, 3-mal täglich für 7 Tage"
+20. Ohrenschmerzen.txt,"Ibuprofen 400 mg, 1-1-1, bei Bedarf"
+21.Pankreatitis.txt,Ramipril 10 mg
+21.Pankreatitis.txt,Metformin 1000 mg zweimal täglich
+21.Pankreatitis.txt,"NaCl 0,9% 2000 ml über 24 Stunden, intravenös"
+21.Pankreatitis.txt,"Metamizol 500 mg intravenös, bei Bedarf"
+21.Pankreatitis.txt,Ceftriaxon 2 g täglich
+22. Gastritis.txt,Ramipril 10 mg täglich
+22. Gastritis.txt,Pantoprazol 40 mg täglich
+22. Gastritis.txt,"Magaldrat 800 mg, 1-1-1"
+23. Choledocholithiasis.txt,Amlodipin 5 mg täglich
+23. Choledocholithiasis.txt,Ceftriaxon 2 g täglich intravenös
+23. Choledocholithiasis.txt,"Metamizol 500 mg intravenös, bei Bedarf"
+23. Choledocholithiasis.txt,"NaCl 0,9% 1000 ml über 8 Stunden,  intravenös"
+24. Cholangitis.txt,"Dimenhydrinat 50 mg intravenös, bei Bedarf"
+24. Cholangitis.txt,"NaCl 0,9% 1000 ml über 8 Stunden,  intravenös"
+24. Cholangitis.txt,"Paracetamol 500 mg, bei Bedarf"
+25. Cholzystits.txt,Lisinopril 10 mg täglich
+25. Cholzystits.txt,Ceftriaxon 2 g täglich intravenös
+25. Cholzystits.txt,"Metamizol 500 mg intravenös, bei Bedarf"
+25. Cholzystits.txt,"NaCl 0,9% 1000 ml über 8 Stunden,  intravenös"
+26. CHolezytolithiasis.txt,Amlodipin 5 mg täglich
+26. CHolezytolithiasis.txt,Ceftriaxon 2 g täglich intravenös
+26. CHolezytolithiasis.txt,"Metamizol 500 mg intravenös, bei Bedarf"
+26. CHolezytolithiasis.txt,"NaCl 0,9% 1000 ml über 8 Stunden,  intravenös"
+27. Urolithiasis Nierenkolik.txt,"Metamizol 500 mg intravenös, bei Bedarf"
+27. Urolithiasis Nierenkolik.txt,"Butylscopolamin 20 mg intravenös, bei Bedarf"
+27. Urolithiasis Nierenkolik.txt,"NaCl 0,9% 1000 ml über 8 Stunden,  intravenös"
+27. Urolithiasis Nierenkolik.txt,"Ciprofloxacin 500 mg, 1-0-1"
+28. Pneumonie.txt,Sauerstoff über Nasensonde mit 2 l/min
+28. Pneumonie.txt,"NaCl 0,9%  1000 ml über 8 Stunden,  intravenös"
+28. Pneumonie.txt,Ramipril 10 mg täglich
+28. Pneumonie.txt,Salbutamol bei Bedarf
+28. Pneumonie.txt,"Amoxicillin/Clavulansäure 1,2 g dreimal täglich intravenös"
+28. Pneumonie.txt,"Paracetamol 500 mg, bei Bedarf"
+29. Pyelonephritis.txt,Ceftriaxon 2 g täglich intravenös
+29. Pyelonephritis.txt,"Metamizol 500 mg intravenös, bei Bedarf"
+29. Pyelonephritis.txt,"NaCl 0,9%  1000 ml über 8 Stunden,  intravenös"
+29. Pyelonephritis.txt,"Paracetamol 500 mg, bei Bedarf"
+30. Zystitis (Harnwegsinfektion).txt,Ciprofloxacin 500 mg zweimal täglich oral für 7 Tage
+30. Zystitis (Harnwegsinfektion).txt,"Paracetamol 500 mg, bei Bedarf"
+30. Zystitis (Harnwegsinfektion).txt,"NaCl 0,9% 500 ml über 4 Stunden,  intravenös"
+31. Erysipel.txt,"Penicillin V 1,2 Millionen Einheiten dreimal täglich oral für 10 Tage"
+31. Erysipel.txt,"Ibuprofen 400 mg, bei Bedarf"
+32. Akute Bronchitis.txt,"Paracetamol 500 mg, bei Bedarf"
+32. Akute Bronchitis.txt,"Salbutamol, Inhalation, bei Bedarf"
+32. Akute Bronchitis.txt,"Dextromethorphan, 1-1-1"
+33. Appendizitis.txt,"NaCl 0,9% 1000 ml über 8 Stunden,  intravenös"
+33. Appendizitis.txt,"Paracetamol 500 mg, bei Bedarf"
+33. Appendizitis.txt,"Dimenhydrinat 50 mg intravenös, bei Bedarf"
+34. Akute Divertikulitis.txt,Lisinopril 10 mg täglich
+34. Akute Divertikulitis.txt,Ciprofloxacin 500 mg zweimal täglich oral für 10 Tage
+34. Akute Divertikulitis.txt,"Metamizol 500 mg, bei Bedarf"
+34. Akute Divertikulitis.txt,"NaCl 0,9% 1000 ml über 8 Stunden"
+35. Tonsilitis.txt,"Amoxicillin/Clavulansäure 875 mg/125 mg, zweimal täglich oral für 10 Tage"
+35. Tonsilitis.txt,"Paracetamol 500 mg, bei Bedarf"

@@ -1,0 +1,178 @@
+﻿filename;medication
+1. Halsschmerzen Schluckbeschwerden.txt;Paracetamol 500 mg, 1-0-1, bei Bedarf
+1. Halsschmerzen Schluckbeschwerden.txt;Chlorhexidin 0,2%, 2
+2. Husten.txt;10 mg Ramipril
+2. Husten.txt;Antitussiva
+2. Husten.txt;Dextromethorphan 15 mg, 1-0-1, bei Bedarf
+2. Husten.txt;Salbutamol 100 µg, 1-2 Hübe bei Bedarf
+2. Husten.txt;Ramipril
+3. Flankenschmerzen.txt;Amlodipin 5 mg einmal täglich
+3. Flankenschmerzen.txt;Metamizol 500 mg, 1-1-1, bei Bedarf
+3. Flankenschmerzen.txt;Butylscopolamin 10 mg, 1-1-1
+3. Flankenschmerzen.txt;antihypertensiven
+3. Flankenschmerzen.txt;Amlodipin
+4. Brustschmerzen.txt;Atorvastatin 20 mg
+4. Brustschmerzen.txt;Metoprolol 50 mg
+4. Brustschmerzen.txt;sublingual und Heparin
+4. Brustschmerzen.txt;Sauerstoffgabe über Nasensonde: 4 l/min
+4. Brustschmerzen.txt;Morphin 5 mg i.v.
+4. Brustschmerzen.txt;Thrombozytenaggregationshemmung
+4. Brustschmerzen.txt;ASS 250 mg i.v.
+4. Brustschmerzen.txt;Antikoagulation
+4. Brustschmerzen.txt;Heparin 5000 IE i.v.
+4. Brustschmerzen.txt;Beta-Blocker
+4. Brustschmerzen.txt;Metoprolol-Therapie mit 50 mg p.o.
+4. Brustschmerzen.txt;Statintherapie
+4. Brustschmerzen.txt;Atorvastatin 80 mg p.o.
+4. Brustschmerzen.txt;ASS 100 mg
+5. Oberbauchschmerzen.txt;Lisinopril 10 mg
+5. Oberbauchschmerzen.txt;Magaldrat 800 mg, 1-1-1, bei Bedarf
+5. Oberbauchschmerzen.txt;Pantoprazol 40 mg, 1-0-0
+5. Oberbauchschmerzen.txt;Lisinopril
+6. Unterbauchschmerzen.txt;Antibiotische Therapie
+6. Unterbauchschmerzen.txt;Ciprofloxacin 500 mg, 1-0-1
+6. Unterbauchschmerzen.txt;Ibuprofen 400 mg, 1-1-1, bei Bedarf
+6. Unterbauchschmerzen.txt;bei Bedarf Abführmittel
+6. Unterbauchschmerzen.txt;Macrogol 13,7 g, 1-0-1
+7. thorakelem Druckgefu╠êhl.txt;Amlodipin 10 mg
+7. thorakelem Druckgefu╠êhl.txt;Metformin 1000 mg zweimal täglich
+7. thorakelem Druckgefu╠êhl.txt;Paracetamol 500 mg, 1-1-1, bei Bedarf
+7. thorakelem Druckgefu╠êhl.txt;bei Bedarf Beruhigungsmittel
+7. thorakelem Druckgefu╠êhl.txt;Diazepam 5 mg, 1-0-1, bei Bedarf
+7. thorakelem Druckgefu╠êhl.txt;Amlodipin
+7. thorakelem Druckgefu╠êhl.txt;Metformin
+8. Fieber.txt;Paracetamol 500 mg, 1-1-1, bei Bedarf
+8. Fieber.txt;Ceftriaxon 2 g, 1-0-0
+8. Fieber.txt;NaCl 0,9%
+8. Fieber.txt;antibiotischen Therapie
+9. Brennen beim Wasserlassen.txt;Antibiotische Therapie
+9. Brennen beim Wasserlassen.txt;Ciprofloxacin 500 mg, 1-0-1 für 5 Tage
+9. Brennen beim Wasserlassen.txt;Ibuprofen 400 mg, 1-1-1
+9. Brennen beim Wasserlassen.txt;Antibiotikatherapie
+10. Erbrechen.txt;Lisinopril 10 mg
+10. Erbrechen.txt;Furosemid 20 mg
+10. Erbrechen.txt;Calciumacetat 500 mg
+10. Erbrechen.txt;NaCl 0,9%
+10. Erbrechen.txt;Metoclopramid 10 mg, 1-1-1
+10. Erbrechen.txt;diuretischen Therapie
+10. Erbrechen.txt;Furosemid auf 10 mg, einmal täglich
+10. Erbrechen.txt;Kräutertees
+11. Teerstuhl.txt;Amlodipin 5 mg
+11. Teerstuhl.txt;NaCl 0,9% über 8 Stunden
+11. Teerstuhl.txt;Ciprofloxacin 500 mg, 1-0-1 für 7 Tage
+11. Teerstuhl.txt;Eisensubstitution mit Ferrosulfat 100 mg, 1-0-1
+12. voru╠êbergehende Bewusstlosigkeit.txt;Ramipril 10 mg täglich
+12. voru╠êbergehende Bewusstlosigkeit.txt;Metformin 1000 mg zweimal täglich
+12. voru╠êbergehende Bewusstlosigkeit.txt;Ramipril
+12. voru╠êbergehende Bewusstlosigkeit.txt;Metformin
+13. akute Nierenversage.txt;Lisinopril 10 mg täglich
+13. akute Nierenversage.txt;NaCl 0,9%
+13. akute Nierenversage.txt;antihypertensive
+13. akute Nierenversage.txt;Lisinopril
+13. akute Nierenversage.txt;Diuretika
+13. akute Nierenversage.txt;antihypertensiven Therapie bei Bedarf
+14. Exsikkose.txt;Amlodipin 5 mg täglich
+14. Exsikkose.txt;NaCl 0,9%
+14. Exsikkose.txt;Volumengabe
+14. Exsikkose.txt;NaCl 0,9%
+14. Exsikkose.txt;antihypertensive
+14. Exsikkose.txt;Amlodipin wurde vorübergehend pausiert
+14. Exsikkose.txt;antihypertensiven
+14. Exsikkose.txt;Amlodipin
+15. Hypoglyka╠êmie.txt;Metformin 1000 mg zweimal täglich
+15. Hypoglyka╠êmie.txt;Glukosegabe mit 20 g
+15. Hypoglyka╠êmie.txt;Metformin
+16. Palpitationen.txt;Amlodipin 5 mg
+16. Palpitationen.txt;Metoprolol 50 mg
+16. Palpitationen.txt;NaCl 0,9%
+16. Palpitationen.txt;Kaliumchlorid
+16. Palpitationen.txt;Metoprolol
+16. Palpitationen.txt;antihypertensiven
+17. Luftnot.txt;Ramipril 10 mg
+17. Luftnot.txt;Salbutamol bei Bedarf
+17. Luftnot.txt;Peptid
+17. Luftnot.txt;Diuretikatherapie
+17. Luftnot.txt;Furosemid 40 mg
+17. Luftnot.txt;Sauerstoff über Nasensonde mit 2 l/min
+17. Luftnot.txt;Salbutamol
+17. Luftnot.txt;diuretischen Therapie nach Bedarf
+18. Ungerichteter Schwindel.txt;Ramipril 10 mg
+18. Ungerichteter Schwindel.txt;Amlodipin 5 mg
+18. Ungerichteter Schwindel.txt;NaCl 0,9%
+18. Ungerichteter Schwindel.txt;antihypertensiven
+18. Ungerichteter Schwindel.txt;Betahistin 16 mg, 1-0-1
+19. Exanthem GÇô nicht juckend.txt;Prednisolon 40 mg täglich für 5 Tage
+20. Ohrenschmerzen.txt;antibiotische Therapie
+20. Ohrenschmerzen.txt;Ciprofloxacin Ohrentropfen, 3 Tropfen, 3-mal täglich für 7 Tage
+20. Ohrenschmerzen.txt;Ibuprofen 400 mg, 1-1-1
+21.Pankreatitis.txt;Metformin 1000 mg zweimal täglich
+21.Pankreatitis.txt;NaCl 0,9%
+21.Pankreatitis.txt;Metamizol 500 mg intravenös, bei Bedarf
+21.Pankreatitis.txt;Antibiose
+21.Pankreatitis.txt;Ceftriaxon 2 g täglich
+21.Pankreatitis.txt;Ramipril 10 mg
+22. Gastritis.txt;Schmerzmittel
+22. Gastritis.txt;Ramipril 10 mg täglich
+22. Gastritis.txt;Pantoprazol 40 mg täglich
+22. Gastritis.txt;Antazida
+22. Gastritis.txt;Magaldrat 800 mg, 1-1-1
+22. Gastritis.txt;Antirheumatika
+22. Gastritis.txt;Koffein
+23. Choledocholithiasis.txt;Amlodipin 5 mg täglich
+23. Choledocholithiasis.txt;Antibiotische Therapie
+23. Choledocholithiasis.txt;Ceftriaxon 2 g täglich intravenös
+23. Choledocholithiasis.txt;Metamizol 500 mg intravenös, bei Bedarf
+23. Choledocholithiasis.txt;NaCl 0,9%
+24. Cholangitis.txt;Dimenhydrinat 50 mg intravenös, bei Bedarf
+24. Cholangitis.txt;NaCl 0,9%
+24. Cholangitis.txt;Paracetamol 500 mg, bei Bedarf
+25. Cholzystits.txt;Lisinopril 10 mg täglich
+25. Cholzystits.txt;Antibiotische Therapie
+25. Cholzystits.txt;Ceftriaxon 2 g täglich intravenös
+25. Cholzystits.txt;Metamizol 500 mg intravenös, bei Bedarf
+25. Cholzystits.txt;NaCl 0,9%
+26. CHolezytolithiasis.txt;Amlodipin 5 mg täglich
+26. CHolezytolithiasis.txt;Antibiotische Therapie
+26. CHolezytolithiasis.txt;Ceftriaxon 2 g täglich intravenös
+26. CHolezytolithiasis.txt;Metamizol 500 mg intravenös, bei Bedarf
+26. CHolezytolithiasis.txt;NaCl 0,9%
+27. Urolithiasis Nierenkolik.txt;Erythrozyten
+27. Urolithiasis Nierenkolik.txt;Metamizol 500 mg intravenös, bei Bedarf
+27. Urolithiasis Nierenkolik.txt;Butylscopolamin 20 mg intravenös, bei Bedarf
+27. Urolithiasis Nierenkolik.txt;NaCl 0,9%
+27. Urolithiasis Nierenkolik.txt;Antibiotische Therapie
+27. Urolithiasis Nierenkolik.txt;Ciprofloxacin 500 mg, 1-0-1
+28. Pneumonie.txt;Sauerstoffgabe über Nasensonde mit 2 l/min
+28. Pneumonie.txt;NaCl 0,9%
+28. Pneumonie.txt;Ramipril 10 mg täglich
+28. Pneumonie.txt;Salbutamol bei Bedarf
+28. Pneumonie.txt;Antibiotische Therapie
+28. Pneumonie.txt;Amoxicillin/Clavulansäure 1,2 g dreimal täglich intravenös
+28. Pneumonie.txt;Paracetamol 500 mg, bei Bedarf
+29. Pyelonephritis.txt;Antibiotische Therapie
+29. Pyelonephritis.txt;Ceftriaxon 2 g täglich intravenös
+29. Pyelonephritis.txt;Metamizol 500 mg intravenös, bei Bedarf
+29. Pyelonephritis.txt;NaCl 0,9%
+29. Pyelonephritis.txt;Paracetamol 500 mg, bei Bedarf
+30. Zystitis (Harnwegsinfektion).txt;Antibiotische Therapie
+30. Zystitis (Harnwegsinfektion).txt;Ciprofloxacin 500 mg zweimal täglich oral für 7 Tage
+30. Zystitis (Harnwegsinfektion).txt;Paracetamol 500 mg, bei Bedarf
+30. Zystitis (Harnwegsinfektion).txt;NaCl 0,9%
+31. Erysipel.txt;Antibiotische Therapie
+31. Erysipel.txt;Penicillin V 1,2 Millionen Einheiten dreimal täglich oral für 10 Tage
+31. Erysipel.txt;Ibuprofen 400 mg, bei Bedarf
+32. Akute Bronchitis.txt;Paracetamol 500 mg, bei Bedarf Inhalation
+32. Akute Bronchitis.txt;Salbutamol
+32. Akute Bronchitis.txt;Dextromethorphan
+32. Akute Bronchitis.txt;Inhalation mit Salbutamol bei Bedarf
+33. Appendizitis.txt;NaCl 0,9%
+33. Appendizitis.txt;Paracetamol 500 mg, bei Bedarf
+33. Appendizitis.txt;Dimenhydrinat 50 mg intravenös, bei Bedarf
+34. Akute Divertikulitis.txt;Lisinopril 10 mg täglich
+34. Akute Divertikulitis.txt;Antibiotische Therapie
+34. Akute Divertikulitis.txt;Ciprofloxacin 500 mg zweimal täglich oral für 10 Tage
+34. Akute Divertikulitis.txt;Metamizol 500 mg, bei Bedarf
+34. Akute Divertikulitis.txt;NaCl 0,9%
+35. Tonsilitis.txt;Antibiotische Therapie
+35. Tonsilitis.txt;Amoxicillin/Clavulansäure 875 mg/125 mg
+35. Tonsilitis.txt;Paracetamol 500 mg, bei Bedarf
