@@ -2,7 +2,7 @@ import json
 import os
 import re
 
-# --- Configuration ---
+# --- Configuration ----
 input_file = 'analysis_results.json'
 output_file = 'medications.json'
 # ----------------------

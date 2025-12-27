@@ -2,7 +2,7 @@ import json
 import csv
 import os
 
-# --- Configuration ---
+# --- Configuration ----
 input_json = 'medications.json'
 output_csv = 'medications.csv'
 # ----------------------
@@ -14,7 +14,6 @@ else:
         data = json.load(f)
 
     # Prepare to write to CSV
-    # We use semicolon (;) because it opens better in German Excel versions
     with open(output_csv, 'w', encoding='utf-8-sig', newline='') as csvfile:
         writer = csv.writer(csvfile, delimiter=';')
         

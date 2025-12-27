@@ -1,7 +1,7 @@
 import json
 from averbis import Client
 
-# --- Configuration ---
+# --- Configuration ----
 client_url = 'https://ahd.test.imi-frankfurt.de/health-discovery/'
 api_token = '12257b50f157bb0e2ebc4736e14d2263cc9a3ac7b9ce5579df7d48881523f39c'
 project_name = 'Evaluation Medikation'
