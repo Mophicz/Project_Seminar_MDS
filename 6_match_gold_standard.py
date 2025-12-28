@@ -1,4 +1,5 @@
 import re
+import os
 
 import pandas as pd
 import numpy as np
@@ -6,9 +7,9 @@ from difflib import SequenceMatcher
 from scipy.optimize import linear_sum_assignment
 
 # --- Configuration ----
-gold_standard = 'gold_standard.csv'
-prediction = 'medications_35.csv'
-output_filename = 'gold_standard_vs_prediction.csv'
+gold_standard = 'gold_standard_3.csv'
+model_annotation = 'medications_35.csv'
+output_filename = 'goldstandard_3_und_model_annotation.csv'
 # ----------------------
 
 def natural_sort_key(s):
@@ -19,7 +20,7 @@ def natural_sort_key(s):
     return [int(text) if text.isdigit() else text.lower()
             for text in re.split(r'(\d+)', s)]
 
-def preprocess(df, output_path=None):
+def preprocess(df):
     # 1. Create a copy to avoid modifying the original dataframe in-place
     df_clean = df.copy()
 
@@ -28,12 +29,6 @@ def preprocess(df, output_path=None):
     for col in df_clean.select_dtypes(include=['object']).columns:
         # astype(str) ensures we handle any mixed types gracefully
         df_clean[col] = df_clean[col].astype(str).str.lower().str.strip()
-
-    # 3. Save or Return
-    if output_path:
-        df_clean.to_csv(output_path, index=False)
-        print(f"Cleaned data saved to {output_path}")
-    
     return df_clean
 
 def get_best_alignment(df_gold, df_pred):
@@ -125,15 +120,12 @@ def get_best_alignment(df_gold, df_pred):
 
 if __name__ == "__main__":
     # Load Data
-    df_gold = preprocess(pd.read_csv(gold_standard, sep=','))
-    df_pred = preprocess(pd.read_csv(prediction, sep=';'))
+    df_gold = preprocess(pd.read_csv(os.path.join('Goldstandard_annotationen', gold_standard), sep=','))
+    df_pred = preprocess(pd.read_csv(os.path.join('Model_annotationen', model_annotation), sep=';'))
 
     # Call the function
     result_df = get_best_alignment(df_gold, df_pred)
 
     # Save to CSV
+    result_df.to_csv(os.path.join('Evaluation', output_filename), index=False, sep=';')
     
-    result_df.to_csv(output_filename, index=False, sep=';')
-
-    print(f"File saved to {output_filename}")
-    print(result_df.head(10))

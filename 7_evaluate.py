@@ -1,15 +1,17 @@
+import os
+
 import pandas as pd
 import Levenshtein
 import matplotlib.pyplot as plt
 import numpy as np  # Added for threshold range generation
 
 # --- Configuration ----
-input_filename = 'gold_standard_vs_prediction.csv'
-output_filename = 'gold_standard_vs_prediction_scores.csv'
+input_filename = 'goldstandard_1_und_model_annotation.csv'
+output_filename = 'levenshtein_scores_1.csv'
 # ----------------------
 
 if __name__ == "__main__":
-    df = pd.read_csv(input_filename, delimiter=';')
+    df = pd.read_csv(os.path.join('Evaluation', input_filename), delimiter=';')
 
     # FIX: Replace NaN with empty strings
     df = df.fillna("")
@@ -19,7 +21,7 @@ if __name__ == "__main__":
     ).astype('float32')
 
     # save the results
-    df.to_csv(output_filename, index=False, sep=';')
+    df.to_csv(os.path.join('Evaluation', output_filename), index=False, sep=';')
     
     # --- Plot 1: Histogram of Scores ---
     plt.figure(figsize=(10, 6))
@@ -86,3 +88,4 @@ if __name__ == "__main__":
     plt.grid(axis='y', alpha=0.75)
     plt.legend()
     plt.show()
+    
