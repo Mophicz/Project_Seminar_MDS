@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import numpy as np  # Added for threshold range generation
 
 # --- Configuration ----
-input_filename = 'goldstandard_1_und_model_annotation.csv'
+input_filename = 'goldstandard_1_und_averbis_annotation.csv'
 output_filename = 'levenshtein_scores_1.csv'
 # ----------------------
 
@@ -17,7 +17,7 @@ if __name__ == "__main__":
     df = df.fillna("")
 
     df['Levenshtein Score'] = df.apply(
-        lambda row: Levenshtein.ratio(str(row['Gold Standard']), str(row['Prediction'])), axis=1
+        lambda row: Levenshtein.ratio(str(row['Goldstandard']), str(row['Averbis'])), axis=1
     ).astype('float32')
 
     # save the results
@@ -38,8 +38,8 @@ if __name__ == "__main__":
 
     # Get values for faster processing
     scores = df['Levenshtein Score'].values
-    has_gold = (df['Gold Standard'] != "").values
-    has_pred = (df['Prediction'] != "").values
+    has_gold = (df['Goldstandard'] != "").values
+    has_pred = (df['Averbis'] != "").values
 
     for t in thresholds:
         # TP: Score is high enough AND it corresponds to a real Gold word

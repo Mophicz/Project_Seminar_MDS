@@ -7,9 +7,9 @@ from difflib import SequenceMatcher
 from scipy.optimize import linear_sum_assignment
 
 # --- Configuration ----
-gold_standard = 'gold_standard_3.csv'
+gold_standard = 'gold_standard_1.csv'
 model_annotation = 'medications_35.csv'
-output_filename = 'goldstandard_3_und_model_annotation.csv'
+output_filename = 'goldstandard_1_und_averbis_annotation.csv'
 # ----------------------
 
 def natural_sort_key(s):
@@ -100,8 +100,8 @@ def get_best_alignment(df_gold, df_pred):
             if (1 - cost_matrix[r, c]) >= THRESHOLD:
                 matched_data.append({
                     'filename': fname,
-                    'Gold Standard': gs_meds[r],
-                    'Prediction': pred_meds[c]
+                    'Goldstandard': gs_meds[r],
+                    'Averbis': pred_meds[c]
                 })
                 matched_indices_gs.add(r)
                 matched_indices_pred.add(c)
@@ -109,19 +109,18 @@ def get_best_alignment(df_gold, df_pred):
         # Handle unmatched (Blanks)
         for i in range(n_gs):
             if i not in matched_indices_gs:
-                matched_data.append({'filename': fname, 'Gold Standard': gs_meds[i], 'Prediction': ""})
+                matched_data.append({'filename': fname, 'Goldstandard': gs_meds[i], 'Averbis': ""})
                 
         for j in range(n_pred):
             if j not in matched_indices_pred:
-                matched_data.append({'filename': fname, 'Gold Standard': "", 'Prediction': pred_meds[j]})
-
+                matched_data.append({'filename': fname, 'Goldstandard': "", 'Averbis': pred_meds[j]})
     matched_data.sort(key=lambda x: natural_sort_key(x['filename']))
-    return pd.DataFrame(matched_data)[['filename', 'Gold Standard', 'Prediction']]
+    return pd.DataFrame(matched_data)[['filename', 'Goldstandard', 'Averbis']]
 
 if __name__ == "__main__":
     # Load Data
     df_gold = preprocess(pd.read_csv(os.path.join('Goldstandard_annotationen', gold_standard), sep=','))
-    df_pred = preprocess(pd.read_csv(os.path.join('Model_annotationen', model_annotation), sep=';'))
+    df_pred = preprocess(pd.read_csv(os.path.join('Averbis_annotationen', model_annotation), sep=';'))
 
     # Call the function
     result_df = get_best_alignment(df_gold, df_pred)
