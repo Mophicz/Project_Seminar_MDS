@@ -3,7 +3,7 @@ import os
 import pandas as pd
 import Levenshtein
 import matplotlib.pyplot as plt
-import numpy as np  # Added for threshold range generation
+import numpy as np  
 
 # --- Configuration ----
 input_filename = 'goldstandard_1_und_averbis_annotation.csv'
@@ -13,14 +13,14 @@ output_filename = 'levenshtein_scores_1.csv'
 if __name__ == "__main__":
     df = pd.read_csv(os.path.join('Evaluation', input_filename), delimiter=';')
 
-    # FIX: Replace NaN with empty strings
+    # Replace NaN with empty strings
     df = df.fillna("")
 
     df['Levenshtein Score'] = df.apply(
         lambda row: Levenshtein.ratio(str(row['Goldstandard']), str(row['Averbis'])), axis=1
     ).astype('float32')
 
-    # save the results
+    # Save the results
     df.to_csv(os.path.join('Evaluation', output_filename), index=False, sep=';')
     
     # --- Plot 1: Histogram of Scores ---
@@ -43,13 +43,13 @@ if __name__ == "__main__":
 
     for t in thresholds:
         # TP: Score is high enough AND it corresponds to a real Gold word
-        tp = np.sum((scores >= t) & has_gold)
+        tp = np.sum(has_gold & has_pred & (scores >= t))
         
         # FP: We predicted a word (has_pred), but score was too low (or Gold was empty)
-        fp = np.sum((scores < t) & has_pred)
+        fp = np.sum((has_pred & (scores < t)) | (~has_gold & has_pred))
         
-        # FN: There was a Gold word (has_gold), but our score was too low
-        fn = np.sum((scores < t) & has_gold)
+        # FN: There was a Gold word (has_gold), but no prediction (has_pred)
+        fn = np.sum(has_gold & ~has_pred)
         
         # Calculate Metrics
         p = tp / (tp + fp) if (tp + fp) > 0 else 0.0
@@ -60,6 +60,7 @@ if __name__ == "__main__":
         recalls.append(r)
         f1_scores.append(f1)
 
+    print(tp+fp+fn)
     plt.figure(figsize=(10, 6))
     
     line_p, = plt.plot(thresholds, precisions, label='Precision')

@@ -14,7 +14,6 @@ filename;Goldstandard;Averbis;Levenshtein Score
 4. brustschmerzen.txt;ass 100 mg;ass 100 mg;1.0
 4. brustschmerzen.txt;atorvastatin 20 mg;atorvastatin 20 mg;1.0
 4. brustschmerzen.txt;metoprolol 50 mg;metoprolol 50 mg;1.0
-4. brustschmerzen.txt;nitroglycerin sublingual;thrombozytenaggregationshemmung;0.43636364
 4. brustschmerzen.txt;heparin;sublingual und heparin;0.4827586
 4. brustschmerzen.txt;sauerstoff über nasensonde mit 4 l/min;sauerstoffgabe über nasensonde: 4 l/min;0.8831169
 4. brustschmerzen.txt;morphin 5 mg i.v.;morphin 5 mg i.v.;1.0
@@ -22,6 +21,8 @@ filename;Goldstandard;Averbis;Levenshtein Score
 4. brustschmerzen.txt;heparin 5000 ie i.v.;heparin 5000 ie i.v.;1.0
 4. brustschmerzen.txt;metoprolol 50 mg p.o.;metoprolol-therapie mit 50 mg p.o.;0.76363635
 4. brustschmerzen.txt;atorvastatin 80 mg p.o.;atorvastatin 80 mg p.o.;1.0
+4. brustschmerzen.txt;nitroglycerin sublingual;;0.0
+4. brustschmerzen.txt;;thrombozytenaggregationshemmung;0.0
 4. brustschmerzen.txt;;antikoagulation;0.0
 4. brustschmerzen.txt;;beta-blocker;0.0
 4. brustschmerzen.txt;;statintherapie;0.0

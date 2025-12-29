@@ -94,10 +94,10 @@ def get_best_alignment(df_gold, df_pred):
         # Filter matches by threshold
         matched_indices_gs = set()
         matched_indices_pred = set()
-        THRESHOLD = 0.3
+        THRESHOLD = 0.5
         
         for r, c in zip(row_ind, col_ind):
-            if (1 - cost_matrix[r, c]) >= THRESHOLD:
+            if ((1 - cost_matrix[r, c]) >= THRESHOLD) | (gs_meds[r] in pred_meds[c]) or (pred_meds[c] in gs_meds[r]):
                 matched_data.append({
                     'filename': fname,
                     'Goldstandard': gs_meds[r],
