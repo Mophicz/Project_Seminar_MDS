@@ -7,9 +7,9 @@ from difflib import SequenceMatcher
 from scipy.optimize import linear_sum_assignment
 
 # --- Configuration ----
-gold_standard = 'gold_standard_1.csv'
+gold_standard = 'gold_standard_3.csv'
 model_annotation = 'medications_35.csv'
-output_filename = 'goldstandard_1_und_averbis_annotation.csv'
+output_filename = 'goldstandard_3_und_averbis_annotation.csv'
 # ----------------------
 
 def natural_sort_key(s):
@@ -26,9 +26,12 @@ def preprocess(df):
 
     # 2. Iterate over columns to clean text
     # We select only columns of type 'object' (strings) to avoid errors on numbers
+    # We explicitly skip 'confidence' if it is read as an object to strictly preserve it,
+    # though usually it is float.
     for col in df_clean.select_dtypes(include=['object']).columns:
-        # astype(str) ensures we handle any mixed types gracefully
-        df_clean[col] = df_clean[col].astype(str).str.lower().str.strip()
+        if col != 'confidence':
+            # astype(str) ensures we handle any mixed types gracefully
+            df_clean[col] = df_clean[col].astype(str).str.lower().str.strip()
     return df_clean
 
 def get_best_alignment(df_gold, df_pred):
@@ -67,8 +70,14 @@ def get_best_alignment(df_gold, df_pred):
     matched_data = []
 
     for fname in all_filenames:
+        # Get Gold Standard Meds
         gs_meds = df_gold[df_gold['filename'] == fname]['medication'].tolist()
-        pred_meds = df_pred[df_pred['filename'] == fname]['medication'].tolist()
+        
+        # Get Averbis Meds AND Confidence
+        pred_subset = df_pred[df_pred['filename'] == fname]
+        pred_meds = pred_subset['medication'].tolist()
+        # Use .get to avoid errors if column is missing, default to empty list logic
+        pred_confs = pred_subset['confidence'].tolist() if 'confidence' in pred_subset.columns else [''] * len(pred_meds)
         
         n_gs, n_pred = len(gs_meds), len(pred_meds)
         cost_matrix = np.zeros((n_gs, n_pred))
@@ -101,24 +110,38 @@ def get_best_alignment(df_gold, df_pred):
                 matched_data.append({
                     'filename': fname,
                     'Goldstandard': gs_meds[r],
-                    'Averbis': pred_meds[c]
+                    'Averbis': pred_meds[c],
+                    'Confidence': pred_confs[c] # Add Confidence here
                 })
                 matched_indices_gs.add(r)
                 matched_indices_pred.add(c)
         
-        # Handle unmatched (Blanks)
+        # Handle unmatched Gold Standard (FN - False Negatives)
         for i in range(n_gs):
             if i not in matched_indices_gs:
-                matched_data.append({'filename': fname, 'Goldstandard': gs_meds[i], 'Averbis': ""})
+                matched_data.append({
+                    'filename': fname, 
+                    'Goldstandard': gs_meds[i], 
+                    'Averbis': "",
+                    'Confidence': "" # No confidence because model didn't find it
+                })
                 
+        # Handle unmatched Averbis (FP - False Positives)
         for j in range(n_pred):
             if j not in matched_indices_pred:
-                matched_data.append({'filename': fname, 'Goldstandard': "", 'Averbis': pred_meds[j]})
+                matched_data.append({
+                    'filename': fname, 
+                    'Goldstandard': "", 
+                    'Averbis': pred_meds[j],
+                    'Confidence': pred_confs[j] # Add Confidence here
+                })
+
     matched_data.sort(key=lambda x: natural_sort_key(x['filename']))
-    return pd.DataFrame(matched_data)[['filename', 'Goldstandard', 'Averbis']]
+    return pd.DataFrame(matched_data)[['filename', 'Goldstandard', 'Averbis', 'Confidence']]
 
 if __name__ == "__main__":
     # Load Data
+    # Note: Ensure the model_annotation file has the correct delimiter (usually semicolon based on previous steps)
     df_gold = preprocess(pd.read_csv(os.path.join('Goldstandard_annotationen', gold_standard), sep=','))
     df_pred = preprocess(pd.read_csv(os.path.join('Averbis_annotationen', model_annotation), sep=';'))
 
@@ -126,5 +149,6 @@ if __name__ == "__main__":
     result_df = get_best_alignment(df_gold, df_pred)
 
     # Save to CSV
+    # Using ; as separator to match typical German/Excel CSV formats
     result_df.to_csv(os.path.join('Evaluation', output_filename), index=False, sep=';')
-    
+    print(f"File saved to: {os.path.join('Evaluation', output_filename)}")

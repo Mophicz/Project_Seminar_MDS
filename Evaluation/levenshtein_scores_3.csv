@@ -1,179 +1,179 @@
-filename;Goldstandard;Averbis;Levenshtein Score
-1. halsschmerzen schluckbeschwerden.txt;paracetamol 500 mg, 1-0-1, bei bedarf;paracetamol 500 mg, 1-0-1, bei bedarf;1.0
-1. halsschmerzen schluckbeschwerden.txt;chlorhexidin 0,2%, 2-3 mal täglich;chlorhexidin 0,2%, 2;0.7407407
-2. husten.txt;10 mg ramipril;10 mg ramipril;1.0
-2. husten.txt;dextromethorphan 15 mg, 1-0-1, bei bedarf;dextromethorphan 15 mg, 1-0-1, bei bedarf;1.0
-2. husten.txt;salbutamol 100 µg, 1-2 hübe bei bedarf, max. 4-mal täglich;salbutamol 100 µg, 1-2 hübe bei bedarf;0.7916667
-2. husten.txt;ramipril;ramipril;1.0
-2. husten.txt;;antitussiva;0.0
-3. flankenschmerzen.txt;amlodipin 5 mg einmal täglich;amlodipin 5 mg einmal täglich;1.0
-3. flankenschmerzen.txt;metamizol 500 mg, 1-1-1, bei bedarf;metamizol 500 mg, 1-1-1, bei bedarf;1.0
-3. flankenschmerzen.txt;butylscopolamin 10 mg, 1-1-1, bei bedarf;butylscopolamin 10 mg, 1-1-1;0.8235294
-3. flankenschmerzen.txt;amlodipin;amlodipin;1.0
-3. flankenschmerzen.txt;;antihypertensiven;0.0
-4. brustschmerzen.txt;ass 100 mg;ass 100 mg;1.0
-4. brustschmerzen.txt;atorvastatin 20 mg;atorvastatin 20 mg;1.0
-4. brustschmerzen.txt;metoprolol 50 mg;metoprolol 50 mg;1.0
-4. brustschmerzen.txt;heparin;sublingual und heparin;0.4827586
-4. brustschmerzen.txt;sauerstoff über nasensonde mit 4 l/min;sauerstoffgabe über nasensonde: 4 l/min;0.8831169
-4. brustschmerzen.txt;morphin 5 mg i.v.;morphin 5 mg i.v.;1.0
-4. brustschmerzen.txt;ass 250 mg i.v.;ass 250 mg i.v.;1.0
-4. brustschmerzen.txt;heparin 5000 ie i.v.;heparin 5000 ie i.v.;1.0
-4. brustschmerzen.txt;metoprolol 50 mg p.o.;metoprolol-therapie mit 50 mg p.o.;0.76363635
-4. brustschmerzen.txt;atorvastatin 80 mg p.o.;atorvastatin 80 mg p.o.;1.0
-4. brustschmerzen.txt;nitroglycerin sublingual;;0.0
-4. brustschmerzen.txt;;thrombozytenaggregationshemmung;0.0
-4. brustschmerzen.txt;;antikoagulation;0.0
-4. brustschmerzen.txt;;beta-blocker;0.0
-4. brustschmerzen.txt;;statintherapie;0.0
-5. oberbauchschmerzen.txt;lisinopril 10 mg;lisinopril 10 mg;1.0
-5. oberbauchschmerzen.txt;magaldrat 800 mg, 1-1-1, bei bedarf;magaldrat 800 mg, 1-1-1, bei bedarf;1.0
-5. oberbauchschmerzen.txt;pantoprazol 40 mg, 1-0-0;pantoprazol 40 mg, 1-0-0;1.0
-5. oberbauchschmerzen.txt;lisinopril;lisinopril;1.0
-6. unterbauchschmerzen.txt;ciprofloxacin 500 mg, 1-0-1;ciprofloxacin 500 mg, 1-0-1;1.0
-6. unterbauchschmerzen.txt;ibuprofen 400 mg, 1-1-1, bei bedarf;ibuprofen 400 mg, 1-1-1, bei bedarf;1.0
-6. unterbauchschmerzen.txt;macrogol 13,7 g, 1-0-1, bei bedarf;macrogol 13,7 g, 1-0-1;0.78571427
-6. unterbauchschmerzen.txt;;antibiotische therapie;0.0
-6. unterbauchschmerzen.txt;;bei bedarf abführmittel;0.0
-7. thorakelem druckgefühl.txt;amlodipin 10 mg;amlodipin 10 mg;1.0
-7. thorakelem druckgefühl.txt;metformin 1000 mg zweimal täglich;metformin 1000 mg zweimal täglich;1.0
-7. thorakelem druckgefühl.txt;paracetamol 500 mg, 1-1-1, bei bedarf;paracetamol 500 mg, 1-1-1, bei bedarf;1.0
-7. thorakelem druckgefühl.txt;diazepam 5 mg, 1-0-1, bei bedarf;diazepam 5 mg, 1-0-1, bei bedarf;1.0
-7. thorakelem druckgefühl.txt;amlodipin;amlodipin;1.0
-7. thorakelem druckgefühl.txt;metformin;metformin;1.0
-7. thorakelem druckgefühl.txt;;bei bedarf beruhigungsmittel;0.0
-8. fieber.txt;paracetamol 500 mg, 1-1-1, bei bedarf;paracetamol 500 mg, 1-1-1, bei bedarf;1.0
-8. fieber.txt;ceftriaxon 2 g, 1-0-0, intravenös;ceftriaxon 2 g, 1-0-0;0.7777778
-8. fieber.txt;nacl 0,9%, 1000 ml über 8 stunden, intravenös;nacl 0,9%;0.33333334
-8. fieber.txt;;antibiotischen therapie;0.0
-9. brennen beim wasserlassen.txt;ciprofloxacin 500 mg, 1-0-1 für 5 tage;ciprofloxacin 500 mg, 1-0-1 für 5 tage;1.0
-9. brennen beim wasserlassen.txt;ibuprofen 400 mg, 1-1-1, bei bedarf;ibuprofen 400 mg, 1-1-1;0.79310346
-9. brennen beim wasserlassen.txt;;antibiotische therapie;0.0
-9. brennen beim wasserlassen.txt;;antibiotikatherapie;0.0
-10. erbrechen.txt;lisinopril 10 mg;lisinopril 10 mg;1.0
-10. erbrechen.txt;furosemid 20 mg;furosemid 20 mg;1.0
-10. erbrechen.txt;calciumacetat 500 mg;calciumacetat 500 mg;1.0
-10. erbrechen.txt;nacl 0,9%, 1000 ml über 8 stunden, intravenös;nacl 0,9%;0.33333334
-10. erbrechen.txt;metoclopramid 10 mg, 1-1-1, intravenös;metoclopramid 10 mg, 1-1-1;0.8125
-10. erbrechen.txt;furosemid 10 mg, einmal täglich;furosemid auf 10 mg, einmal täglich;0.93939394
-10. erbrechen.txt;;diuretischen therapie;0.0
-10. erbrechen.txt;;kräutertees;0.0
-11. teerstuhl.txt;amlodipin 5 mg;amlodipin 5 mg;1.0
-11. teerstuhl.txt;nacl 0,9% 1000 ml über 8 stunden, intravenös;nacl 0,9% über 8 stunden;0.7058824
-11. teerstuhl.txt;ciprofloxacin 500 mg, 1-0-1 für 7 tage;ciprofloxacin 500 mg, 1-0-1 für 7 tage;1.0
-11. teerstuhl.txt;ferrosulfat 100 mg, 1-0-1;eisensubstitution mit ferrosulfat 100 mg, 1-0-1;0.6944444
-12. vorübergehende bewusstlosigkeit.txt;ramipril 10 mg täglich;ramipril 10 mg täglich;1.0
-12. vorübergehende bewusstlosigkeit.txt;metformin 1000 mg zweimal täglich;metformin 1000 mg zweimal täglich;1.0
-12. vorübergehende bewusstlosigkeit.txt;ramipril;ramipril;1.0
-12. vorübergehende bewusstlosigkeit.txt;metformin;metformin;1.0
-13. akute nierenversage.txt;lisinopril 10 mg täglich;lisinopril 10 mg täglich;1.0
-13. akute nierenversage.txt;nacl 0,9%, 1000 ml über 4 stunden, intravenös;nacl 0,9%;0.33333334
-13. akute nierenversage.txt;lisinopril;lisinopril;1.0
-13. akute nierenversage.txt;;antihypertensive;0.0
-13. akute nierenversage.txt;;diuretika;0.0
-13. akute nierenversage.txt;;antihypertensiven therapie bei bedarf;0.0
-14. exsikkose.txt;amlodipin 5 mg täglich;amlodipin 5 mg täglich;1.0
-14. exsikkose.txt;nacl 0,9%, 1000 ml über 4 stunden, intravenös;nacl 0,9%;0.33333334
-14. exsikkose.txt;nacl 0,9%, 1000 ml über 24 stunden;nacl 0,9%;0.41860464
-14. exsikkose.txt;amlodipin;amlodipin;1.0
-14. exsikkose.txt;;volumengabe;0.0
-14. exsikkose.txt;;antihypertensive;0.0
-14. exsikkose.txt;;amlodipin wurde vorübergehend pausiert;0.0
-14. exsikkose.txt;;antihypertensiven;0.0
-15. hypoglykämie.txt;metformin 1000 mg zweimal täglich;metformin 1000 mg zweimal täglich;1.0
-15. hypoglykämie.txt;metformin;metformin;1.0
-15. hypoglykämie.txt;;glukosegabe mit 20 g;0.0
-16. palpitationen.txt;amlodipin 5 mg;amlodipin 5 mg;1.0
-16. palpitationen.txt;metoprolol 50 mg;metoprolol 50 mg;1.0
-16. palpitationen.txt;nacl 0,9% 500 ml über 2 stunden, intravenös;nacl 0,9%;0.34615386
-16. palpitationen.txt;kaliumchlorid;kaliumchlorid;1.0
-16. palpitationen.txt;metoprolol;metoprolol;1.0
-16. palpitationen.txt;;antihypertensiven;0.0
-17. luftnot.txt;ramipril 10 mg;ramipril 10 mg;1.0
-17. luftnot.txt;salbutamol bei bedarf;salbutamol bei bedarf;1.0
-17. luftnot.txt;furosemid 40 mg,  intravenös;furosemid 40 mg;0.6976744
-17. luftnot.txt;sauerstoff über nasensonde mit 2 l/min;sauerstoff über nasensonde mit 2 l/min;1.0
-17. luftnot.txt;salbutamol;salbutamol;1.0
-17. luftnot.txt;;peptid;0.0
-17. luftnot.txt;;diuretikatherapie;0.0
-17. luftnot.txt;;diuretischen therapie nach bedarf;0.0
-18. ungerichteter schwindel.txt;ramipril 10 mg;ramipril 10 mg;1.0
-18. ungerichteter schwindel.txt;amlodipin 5 mg;amlodipin 5 mg;1.0
-18. ungerichteter schwindel.txt;nacl 0,9% 500 ml über 4 stunden, intravenös;nacl 0,9%;0.34615386
-18. ungerichteter schwindel.txt;betahistin 16 mg, 1-0-1;betahistin 16 mg, 1-0-1;1.0
-18. ungerichteter schwindel.txt;;antihypertensiven;0.0
-19. exanthem-nicht juckend.txt;prednisolon 40 mg täglich für 5 tage;prednisolon 40 mg täglich für 5 tage;1.0
-20. ohrenschmerzen.txt;ciprofloxacin ohrentropfen, 3 tropfen, 3-mal täglich für 7 tage;ciprofloxacin ohrentropfen, 3 tropfen, 3-mal täglich für 7 tage;1.0
-20. ohrenschmerzen.txt;ibuprofen 400 mg, 1-1-1, bei bedarf;ibuprofen 400 mg, 1-1-1;0.79310346
-20. ohrenschmerzen.txt;;antibiotische therapie;0.0
-21.pankreatitis.txt;ramipril 10 mg;ramipril 10 mg;1.0
-21.pankreatitis.txt;metformin 1000 mg zweimal täglich;metformin 1000 mg zweimal täglich;1.0
-21.pankreatitis.txt;nacl 0,9% 2000 ml über 24 stunden, intravenös;nacl 0,9%;0.33333334
-21.pankreatitis.txt;metamizol 500 mg intravenös, bei bedarf;metamizol 500 mg intravenös, bei bedarf;1.0
-21.pankreatitis.txt;ceftriaxon 2 g täglich, intravenös;ceftriaxon 2 g täglich;0.78571427
-21.pankreatitis.txt;;antibiose;0.0
-22. gastritis.txt;ramipril 10 mg täglich;ramipril 10 mg täglich;1.0
-22. gastritis.txt;pantoprazol 40 mg täglich;pantoprazol 40 mg täglich;1.0
-22. gastritis.txt;magaldrat 800 mg, 1-1-1, bei bedarf;magaldrat 800 mg, 1-1-1;0.79310346
-22. gastritis.txt;;schmerzmittel;0.0
-22. gastritis.txt;;antazida;0.0
-22. gastritis.txt;;antirheumatika;0.0
-22. gastritis.txt;;koffein;0.0
-23. choledocholithiasis.txt;amlodipin 5 mg täglich;amlodipin 5 mg täglich;1.0
-23. choledocholithiasis.txt;ceftriaxon 2 g täglich, intravenös;ceftriaxon 2 g täglich intravenös;0.98507464
-23. choledocholithiasis.txt;metamizol 500 mg intravenös, bei bedarf;metamizol 500 mg intravenös, bei bedarf;1.0
-23. choledocholithiasis.txt;nacl 0,9% 1000 ml über 8 stunden,  intravenös;nacl 0,9%;0.33333334
-23. choledocholithiasis.txt;;antibiotische therapie;0.0
-24. cholangitis.txt;dimenhydrinat 50 mg intravenös, bei bedarf;dimenhydrinat 50 mg intravenös, bei bedarf;1.0
-24. cholangitis.txt;nacl 0,9% 1000 ml über 8 stunden,  intravenös;nacl 0,9%;0.33333334
-24. cholangitis.txt;paracetamol 500 mg, bei bedarf;paracetamol 500 mg, bei bedarf;1.0
-25. cholzystits.txt;lisinopril 10 mg täglich;lisinopril 10 mg täglich;1.0
-25. cholzystits.txt;ceftriaxon 2 g täglich, intravenös;ceftriaxon 2 g täglich intravenös;0.98507464
-25. cholzystits.txt;metamizol 500 mg intravenös, bei bedarf;metamizol 500 mg intravenös, bei bedarf;1.0
-25. cholzystits.txt;nacl 0,9% 1000 ml über 8 stunden,  intravenös;nacl 0,9%;0.33333334
-25. cholzystits.txt;;antibiotische therapie;0.0
-26. cholezytolithiasis.txt;amlodipin 5 mg täglich;amlodipin 5 mg täglich;1.0
-26. cholezytolithiasis.txt;ceftriaxon 2 g täglich, intravenös;ceftriaxon 2 g täglich intravenös;0.98507464
-26. cholezytolithiasis.txt;metamizol 500 mg intravenös, bei bedarf;metamizol 500 mg intravenös, bei bedarf;1.0
-26. cholezytolithiasis.txt;nacl 0,9% 1000 ml über 8 stunden,  intravenös;nacl 0,9%;0.33333334
-26. cholezytolithiasis.txt;;antibiotische therapie;0.0
-27. urolithiasis nierenkolik.txt;metamizol 500 mg intravenös, bei bedarf;metamizol 500 mg intravenös, bei bedarf;1.0
-27. urolithiasis nierenkolik.txt;butylscopolamin 20 mg intravenös, bei bedarf;butylscopolamin 20 mg intravenös, bei bedarf;1.0
-27. urolithiasis nierenkolik.txt;nacl 0,9% 1000 ml über 8 stunden,  intravenös;nacl 0,9%;0.33333334
-27. urolithiasis nierenkolik.txt;ciprofloxacin 500 mg, 1-0-1;ciprofloxacin 500 mg, 1-0-1;1.0
-27. urolithiasis nierenkolik.txt;;erythrozyten;0.0
-27. urolithiasis nierenkolik.txt;;antibiotische therapie;0.0
-28. pneumonie.txt;ramipril 10 mg täglich;ramipril 10 mg täglich;1.0
-28. pneumonie.txt;salbutamol bei bedarf;salbutamol bei bedarf;1.0
-28. pneumonie.txt;amoxicillin/clavulansäure 1,2 g dreimal täglich, intravenös;amoxicillin/clavulansäure 1,2 g dreimal täglich intravenös;0.991453
-28. pneumonie.txt;paracetamol 500 mg, bei bedarf;paracetamol 500 mg, bei bedarf;1.0
-28. pneumonie.txt;sauerstoff über nasensonde mit 2 l/min;sauerstoffgabe über nasensonde mit 2 l/min;0.95
-28. pneumonie.txt;nacl 0,9%  1000 ml über 8 stunden,  intravenös;nacl 0,9%;0.3272727
-28. pneumonie.txt;;antibiotische therapie;0.0
-29. pyelonephritis.txt;ceftriaxon 2 g täglich intravenös;ceftriaxon 2 g täglich intravenös;1.0
-29. pyelonephritis.txt;metamizol 500 mg intravenös, bei bedarf;metamizol 500 mg intravenös, bei bedarf;1.0
-29. pyelonephritis.txt;nacl 0,9%  1000 ml über 8 stunden,  intravenös;nacl 0,9%;0.3272727
-29. pyelonephritis.txt;paracetamol 500 mg, bei bedarf;paracetamol 500 mg, bei bedarf;1.0
-29. pyelonephritis.txt;;antibiotische therapie;0.0
-30. zystitis (harnwegsinfektion).txt;ciprofloxacin 500 mg zweimal täglich oral für 7 tage;ciprofloxacin 500 mg zweimal täglich oral für 7 tage;1.0
-30. zystitis (harnwegsinfektion).txt;paracetamol 500 mg, bei bedarf;paracetamol 500 mg, bei bedarf;1.0
-30. zystitis (harnwegsinfektion).txt;nacl 0,9% 500 ml über 4 stunden,  intravenös;nacl 0,9%;0.33962265
-30. zystitis (harnwegsinfektion).txt;;antibiotische therapie;0.0
-31. erysipel.txt;penicillin v 1,2 millionen einheiten dreimal täglich oral für 10 tage;penicillin v 1,2 millionen einheiten dreimal täglich oral für 10 tage;1.0
-31. erysipel.txt;ibuprofen 400 mg, bei bedarf;ibuprofen 400 mg, bei bedarf;1.0
-31. erysipel.txt;;antibiotische therapie;0.0
-32. akute bronchitis.txt;paracetamol 500 mg, bei bedarf;paracetamol 500 mg, bei bedarf inhalation;0.8450704
-32. akute bronchitis.txt;salbutamol, inhalation, bei bedarf;inhalation mit salbutamol bei bedarf;0.6
-32. akute bronchitis.txt;salbutamol, inhalation, regälmäßig bei bedarf;salbutamol;0.36363637
-32. akute bronchitis.txt;dextromethorphan, 1-1-1;dextromethorphan;0.82051283
-33. appendizitis.txt;nacl 0,9% 1000 ml über 8 stunden,  intravenös;nacl 0,9%;0.33333334
-33. appendizitis.txt;paracetamol 500 mg, bei bedarf;paracetamol 500 mg, bei bedarf;1.0
-33. appendizitis.txt;dimenhydrinat 50 mg intravenös, bei bedarf;dimenhydrinat 50 mg intravenös, bei bedarf;1.0
-34. akute divertikulitis.txt;lisinopril 10 mg täglich;lisinopril 10 mg täglich;1.0
-34. akute divertikulitis.txt;ciprofloxacin 500 mg zweimal täglich oral für 10 tage;ciprofloxacin 500 mg zweimal täglich oral für 10 tage;1.0
-34. akute divertikulitis.txt;metamizol 500 mg, bei bedarf;metamizol 500 mg, bei bedarf;1.0
-34. akute divertikulitis.txt;nacl 0,9% 1000 ml über 8 stunden;nacl 0,9%;0.4390244
-34. akute divertikulitis.txt;;antibiotische therapie;0.0
-35. tonsilitis.txt;amoxicillin/clavulansäure 875 mg/125 mg, zweimal täglich oral für 10 tage;amoxicillin/clavulansäure 875 mg/125 mg;0.6964286
-35. tonsilitis.txt;paracetamol 500 mg, bei bedarf;paracetamol 500 mg, bei bedarf;1.0
-35. tonsilitis.txt;;antibiotische therapie;0.0
+filename;Goldstandard;Averbis;Confidence;Levenshtein Score
+1. halsschmerzen schluckbeschwerden.txt;paracetamol 500 mg, 1-0-1, bei bedarf;paracetamol 500 mg, 1-0-1, bei bedarf;0.9145786891288562;1.0
+1. halsschmerzen schluckbeschwerden.txt;chlorhexidin 0,2%, 2-3 mal täglich;chlorhexidin 0,2%, 2;0.6570509113650013;0.7407407
+2. husten.txt;10 mg ramipril;10 mg ramipril;0.8146228705936616;1.0
+2. husten.txt;dextromethorphan 15 mg, 1-0-1, bei bedarf;dextromethorphan 15 mg, 1-0-1, bei bedarf;0.6448634323073872;1.0
+2. husten.txt;salbutamol 100 µg, 1-2 hübe bei bedarf, max. 4-mal täglich;salbutamol 100 µg, 1-2 hübe bei bedarf;0.89127893222282;0.7916667
+2. husten.txt;ramipril;ramipril;0.7443761183835422;1.0
+2. husten.txt;;antitussiva;0.6582385883330208;0.0
+3. flankenschmerzen.txt;amlodipin 5 mg einmal täglich;amlodipin 5 mg einmal täglich;0.710218473963738;1.0
+3. flankenschmerzen.txt;metamizol 500 mg, 1-1-1, bei bedarf;metamizol 500 mg, 1-1-1, bei bedarf;0.8489880405587741;1.0
+3. flankenschmerzen.txt;butylscopolamin 10 mg, 1-1-1, bei bedarf;butylscopolamin 10 mg, 1-1-1;0.7211048325939258;0.8235294
+3. flankenschmerzen.txt;amlodipin;amlodipin;0.6746218575992058;1.0
+3. flankenschmerzen.txt;;antihypertensiven;0.8036185025670931;0.0
+4. brustschmerzen.txt;ass 100 mg;ass 100 mg;0.6811178269628961;1.0
+4. brustschmerzen.txt;atorvastatin 20 mg;atorvastatin 20 mg;0.846648505495718;1.0
+4. brustschmerzen.txt;metoprolol 50 mg;metoprolol 50 mg;0.8605145052932484;1.0
+4. brustschmerzen.txt;heparin;sublingual und heparin;0.7031727952231728;0.4827586
+4. brustschmerzen.txt;sauerstoff über nasensonde mit 4 l/min;sauerstoffgabe über nasensonde: 4 l/min;0.6264074130110214;0.8831169
+4. brustschmerzen.txt;morphin 5 mg i.v.;morphin 5 mg i.v.;0.8051080769406038;1.0
+4. brustschmerzen.txt;ass 250 mg i.v.;ass 250 mg i.v.;0.7591820159246406;1.0
+4. brustschmerzen.txt;heparin 5000 ie i.v.;heparin 5000 ie i.v.;0.77856322577848;1.0
+4. brustschmerzen.txt;metoprolol 50 mg p.o.;metoprolol-therapie mit 50 mg p.o.;0.8172592972511847;0.76363635
+4. brustschmerzen.txt;atorvastatin 80 mg p.o.;atorvastatin 80 mg p.o.;0.8003903405298848;1.0
+4. brustschmerzen.txt;nitroglycerin sublingual;;0.0;0.0
+4. brustschmerzen.txt;;thrombozytenaggregationshemmung;0.6645387129918665;0.0
+4. brustschmerzen.txt;;antikoagulation;0.6396657374022332;0.0
+4. brustschmerzen.txt;;beta-blocker;0.5188702549228507;0.0
+4. brustschmerzen.txt;;statintherapie;0.6574010296201702;0.0
+5. oberbauchschmerzen.txt;lisinopril 10 mg;lisinopril 10 mg;0.6345225779128955;1.0
+5. oberbauchschmerzen.txt;magaldrat 800 mg, 1-1-1, bei bedarf;magaldrat 800 mg, 1-1-1, bei bedarf;0.6993542870119726;1.0
+5. oberbauchschmerzen.txt;pantoprazol 40 mg, 1-0-0;pantoprazol 40 mg, 1-0-0;0.7558739477917406;1.0
+5. oberbauchschmerzen.txt;lisinopril;lisinopril;0.719288321926181;1.0
+6. unterbauchschmerzen.txt;ciprofloxacin 500 mg, 1-0-1;ciprofloxacin 500 mg, 1-0-1;0.9044633219160604;1.0
+6. unterbauchschmerzen.txt;ibuprofen 400 mg, 1-1-1, bei bedarf;ibuprofen 400 mg, 1-1-1, bei bedarf;0.913240360775547;1.0
+6. unterbauchschmerzen.txt;macrogol 13,7 g, 1-0-1, bei bedarf;macrogol 13,7 g, 1-0-1;0.7822988417707974;0.78571427
+6. unterbauchschmerzen.txt;;antibiotische therapie;0.8665430442799694;0.0
+6. unterbauchschmerzen.txt;;bei bedarf abführmittel;0.762802547387343;0.0
+7. thorakelem druckgefühl.txt;amlodipin 10 mg;amlodipin 10 mg;0.8486198656801704;1.0
+7. thorakelem druckgefühl.txt;metformin 1000 mg zweimal täglich;metformin 1000 mg zweimal täglich;0.8839840388729069;1.0
+7. thorakelem druckgefühl.txt;paracetamol 500 mg, 1-1-1, bei bedarf;paracetamol 500 mg, 1-1-1, bei bedarf;0.8399800910120035;1.0
+7. thorakelem druckgefühl.txt;diazepam 5 mg, 1-0-1, bei bedarf;diazepam 5 mg, 1-0-1, bei bedarf;0.8159603351391386;1.0
+7. thorakelem druckgefühl.txt;amlodipin;amlodipin;0.7784445024212172;1.0
+7. thorakelem druckgefühl.txt;metformin;metformin;0.87732186541843;1.0
+7. thorakelem druckgefühl.txt;;bei bedarf beruhigungsmittel;0.7655374723828421;0.0
+8. fieber.txt;paracetamol 500 mg, 1-1-1, bei bedarf;paracetamol 500 mg, 1-1-1, bei bedarf;0.8992836048878142;1.0
+8. fieber.txt;ceftriaxon 2 g, 1-0-0, intravenös;ceftriaxon 2 g, 1-0-0;0.7590036625822375;0.7777778
+8. fieber.txt;nacl 0,9%, 1000 ml über 8 stunden, intravenös;nacl 0,9%;0.8001493271460359;0.33333334
+8. fieber.txt;;antibiotischen therapie;0.8000359764515957;0.0
+9. brennen beim wasserlassen.txt;ciprofloxacin 500 mg, 1-0-1 für 5 tage;ciprofloxacin 500 mg, 1-0-1 für 5 tage;0.914236433640902;1.0
+9. brennen beim wasserlassen.txt;ibuprofen 400 mg, 1-1-1, bei bedarf;ibuprofen 400 mg, 1-1-1;0.8989954072107749;0.79310346
+9. brennen beim wasserlassen.txt;;antibiotische therapie;0.8540131903346172;0.0
+9. brennen beim wasserlassen.txt;;antibiotikatherapie;0.5288484248159248;0.0
+10. erbrechen.txt;lisinopril 10 mg;lisinopril 10 mg;0.7013470566959428;1.0
+10. erbrechen.txt;furosemid 20 mg;furosemid 20 mg;0.8746055707953325;1.0
+10. erbrechen.txt;calciumacetat 500 mg;calciumacetat 500 mg;0.8948682813587959;1.0
+10. erbrechen.txt;nacl 0,9%, 1000 ml über 8 stunden, intravenös;nacl 0,9%;0.8247936885533647;0.33333334
+10. erbrechen.txt;metoclopramid 10 mg, 1-1-1, intravenös;metoclopramid 10 mg, 1-1-1;0.818180897164345;0.8125
+10. erbrechen.txt;furosemid 10 mg, einmal täglich;furosemid auf 10 mg, einmal täglich;0.8279463672220038;0.93939394
+10. erbrechen.txt;;diuretischen therapie;0.8449217541311268;0.0
+10. erbrechen.txt;;kräutertees;0.5553988005078155;0.0
+11. teerstuhl.txt;amlodipin 5 mg;amlodipin 5 mg;0.6973164530049494;1.0
+11. teerstuhl.txt;nacl 0,9% 1000 ml über 8 stunden, intravenös;nacl 0,9% über 8 stunden;0.7756460332856735;0.7058824
+11. teerstuhl.txt;ciprofloxacin 500 mg, 1-0-1 für 7 tage;ciprofloxacin 500 mg, 1-0-1 für 7 tage;0.9354847621288376;1.0
+11. teerstuhl.txt;ferrosulfat 100 mg, 1-0-1;eisensubstitution mit ferrosulfat 100 mg, 1-0-1;0.8012847074096263;0.6944444
+12. vorübergehende bewusstlosigkeit.txt;ramipril 10 mg täglich;ramipril 10 mg täglich;0.8772198375586886;1.0
+12. vorübergehende bewusstlosigkeit.txt;metformin 1000 mg zweimal täglich;metformin 1000 mg zweimal täglich;0.8475844344632962;1.0
+12. vorübergehende bewusstlosigkeit.txt;ramipril;ramipril;0.8347894632846525;1.0
+12. vorübergehende bewusstlosigkeit.txt;metformin;metformin;0.7830897463824841;1.0
+13. akute nierenversage.txt;lisinopril 10 mg täglich;lisinopril 10 mg täglich;0.8077911147198745;1.0
+13. akute nierenversage.txt;nacl 0,9%, 1000 ml über 4 stunden, intravenös;nacl 0,9%;0.8309707824928779;0.33333334
+13. akute nierenversage.txt;lisinopril;lisinopril;0.7549346831048378;1.0
+13. akute nierenversage.txt;;antihypertensive;0.7937348406453832;0.0
+13. akute nierenversage.txt;;diuretika;0.7001073338882472;0.0
+13. akute nierenversage.txt;;antihypertensiven therapie bei bedarf;0.7783594635078369;0.0
+14. exsikkose.txt;amlodipin 5 mg täglich;amlodipin 5 mg täglich;0.8422358677467466;1.0
+14. exsikkose.txt;nacl 0,9%, 1000 ml über 4 stunden, intravenös;nacl 0,9%;0.8232267344631589;0.33333334
+14. exsikkose.txt;nacl 0,9%, 1000 ml über 24 stunden;nacl 0,9%;0.7677107836857859;0.41860464
+14. exsikkose.txt;amlodipin;amlodipin;0.7378505545417123;1.0
+14. exsikkose.txt;;volumengabe;0.5746959765822623;0.0
+14. exsikkose.txt;;antihypertensive;0.7728397707450129;0.0
+14. exsikkose.txt;;amlodipin wurde vorübergehend pausiert;0.8266930431637397;0.0
+14. exsikkose.txt;;antihypertensiven;0.6860268232480449;0.0
+15. hypoglykämie.txt;metformin 1000 mg zweimal täglich;metformin 1000 mg zweimal täglich;0.7646742865458137;1.0
+15. hypoglykämie.txt;metformin;metformin;0.8511978046465041;1.0
+15. hypoglykämie.txt;;glukosegabe mit 20 g;0.7802864172828329;0.0
+16. palpitationen.txt;amlodipin 5 mg;amlodipin 5 mg;0.7292675850009118;1.0
+16. palpitationen.txt;metoprolol 50 mg;metoprolol 50 mg;0.8663733922453681;1.0
+16. palpitationen.txt;nacl 0,9% 500 ml über 2 stunden, intravenös;nacl 0,9%;0.8372062824895637;0.34615386
+16. palpitationen.txt;kaliumchlorid;kaliumchlorid;0.6219004743240736;1.0
+16. palpitationen.txt;metoprolol;metoprolol;0.8788564858939557;1.0
+16. palpitationen.txt;;antihypertensiven;0.7721217313640386;0.0
+17. luftnot.txt;ramipril 10 mg;ramipril 10 mg;0.8747274139513935;1.0
+17. luftnot.txt;salbutamol bei bedarf;salbutamol bei bedarf;0.9028853483843052;1.0
+17. luftnot.txt;furosemid 40 mg,  intravenös;furosemid 40 mg;0.7998909979842335;0.6976744
+17. luftnot.txt;sauerstoff über nasensonde mit 2 l/min;sauerstoff über nasensonde mit 2 l/min;0.692200247871631;1.0
+17. luftnot.txt;salbutamol;salbutamol;0.8212621714535387;1.0
+17. luftnot.txt;;peptid;0.5939714161516094;0.0
+17. luftnot.txt;;diuretikatherapie;0.7756109896053022;0.0
+17. luftnot.txt;;diuretischen therapie nach bedarf;0.8374681875199621;0.0
+18. ungerichteter schwindel.txt;ramipril 10 mg;ramipril 10 mg;0.7369158244649121;1.0
+18. ungerichteter schwindel.txt;amlodipin 5 mg;amlodipin 5 mg;0.8893247087507908;1.0
+18. ungerichteter schwindel.txt;nacl 0,9% 500 ml über 4 stunden, intravenös;nacl 0,9%;0.838649086463923;0.34615386
+18. ungerichteter schwindel.txt;betahistin 16 mg, 1-0-1;betahistin 16 mg, 1-0-1;0.7899360570270816;1.0
+18. ungerichteter schwindel.txt;;antihypertensiven;0.8140346117169359;0.0
+19. exanthem-nicht juckend.txt;prednisolon 40 mg täglich für 5 tage;prednisolon 40 mg täglich für 5 tage;0.8372804019387011;1.0
+20. ohrenschmerzen.txt;ciprofloxacin ohrentropfen, 3 tropfen, 3-mal täglich für 7 tage;ciprofloxacin ohrentropfen, 3 tropfen, 3-mal täglich für 7 tage;0.7720474661436673;1.0
+20. ohrenschmerzen.txt;ibuprofen 400 mg, 1-1-1, bei bedarf;ibuprofen 400 mg, 1-1-1;0.9178489225719392;0.79310346
+20. ohrenschmerzen.txt;;antibiotische therapie;0.8261089662824097;0.0
+21.pankreatitis.txt;ramipril 10 mg;ramipril 10 mg;0.8699796775873639;1.0
+21.pankreatitis.txt;metformin 1000 mg zweimal täglich;metformin 1000 mg zweimal täglich;0.8819355053356153;1.0
+21.pankreatitis.txt;nacl 0,9% 2000 ml über 24 stunden, intravenös;nacl 0,9%;0.8447262958376534;0.33333334
+21.pankreatitis.txt;metamizol 500 mg intravenös, bei bedarf;metamizol 500 mg intravenös, bei bedarf;0.8713388817776737;1.0
+21.pankreatitis.txt;ceftriaxon 2 g täglich, intravenös;ceftriaxon 2 g täglich;0.7779818668136187;0.78571427
+21.pankreatitis.txt;;antibiose;0.7079613232316933;0.0
+22. gastritis.txt;ramipril 10 mg täglich;ramipril 10 mg täglich;0.8866679092620683;1.0
+22. gastritis.txt;pantoprazol 40 mg täglich;pantoprazol 40 mg täglich;0.7644146850104482;1.0
+22. gastritis.txt;magaldrat 800 mg, 1-1-1, bei bedarf;magaldrat 800 mg, 1-1-1;0.7229115158800763;0.79310346
+22. gastritis.txt;;schmerzmittel;0.6437366255434628;0.0
+22. gastritis.txt;;antazida;0.7074385245559561;0.0
+22. gastritis.txt;;antirheumatika;0.5219311616884265;0.0
+22. gastritis.txt;;koffein;0.5177956280574295;0.0
+23. choledocholithiasis.txt;amlodipin 5 mg täglich;amlodipin 5 mg täglich;0.8811278356467079;1.0
+23. choledocholithiasis.txt;ceftriaxon 2 g täglich, intravenös;ceftriaxon 2 g täglich intravenös;0.8933697797411131;0.98507464
+23. choledocholithiasis.txt;metamizol 500 mg intravenös, bei bedarf;metamizol 500 mg intravenös, bei bedarf;0.9087905418380244;1.0
+23. choledocholithiasis.txt;nacl 0,9% 1000 ml über 8 stunden,  intravenös;nacl 0,9%;0.8573855296200562;0.33333334
+23. choledocholithiasis.txt;;antibiotische therapie;0.8145284024094426;0.0
+24. cholangitis.txt;dimenhydrinat 50 mg intravenös, bei bedarf;dimenhydrinat 50 mg intravenös, bei bedarf;0.8928300360161614;1.0
+24. cholangitis.txt;nacl 0,9% 1000 ml über 8 stunden,  intravenös;nacl 0,9%;0.8735567550479515;0.33333334
+24. cholangitis.txt;paracetamol 500 mg, bei bedarf;paracetamol 500 mg, bei bedarf;0.9109883573279736;1.0
+25. cholzystits.txt;lisinopril 10 mg täglich;lisinopril 10 mg täglich;0.8341451872307556;1.0
+25. cholzystits.txt;ceftriaxon 2 g täglich, intravenös;ceftriaxon 2 g täglich intravenös;0.8933697797411131;0.98507464
+25. cholzystits.txt;metamizol 500 mg intravenös, bei bedarf;metamizol 500 mg intravenös, bei bedarf;0.9087905418380244;1.0
+25. cholzystits.txt;nacl 0,9% 1000 ml über 8 stunden,  intravenös;nacl 0,9%;0.8573855296200562;0.33333334
+25. cholzystits.txt;;antibiotische therapie;0.8145284024094426;0.0
+26. cholezytolithiasis.txt;amlodipin 5 mg täglich;amlodipin 5 mg täglich;0.8887824775100748;1.0
+26. cholezytolithiasis.txt;ceftriaxon 2 g täglich, intravenös;ceftriaxon 2 g täglich intravenös;0.8932869440710975;0.98507464
+26. cholezytolithiasis.txt;metamizol 500 mg intravenös, bei bedarf;metamizol 500 mg intravenös, bei bedarf;0.9087905418380244;1.0
+26. cholezytolithiasis.txt;nacl 0,9% 1000 ml über 8 stunden,  intravenös;nacl 0,9%;0.8573855296200562;0.33333334
+26. cholezytolithiasis.txt;;antibiotische therapie;0.8110791873595083;0.0
+27. urolithiasis nierenkolik.txt;metamizol 500 mg intravenös, bei bedarf;metamizol 500 mg intravenös, bei bedarf;0.9157995965845418;1.0
+27. urolithiasis nierenkolik.txt;butylscopolamin 20 mg intravenös, bei bedarf;butylscopolamin 20 mg intravenös, bei bedarf;0.902926603064482;1.0
+27. urolithiasis nierenkolik.txt;nacl 0,9% 1000 ml über 8 stunden,  intravenös;nacl 0,9%;0.8688884432121843;0.33333334
+27. urolithiasis nierenkolik.txt;ciprofloxacin 500 mg, 1-0-1;ciprofloxacin 500 mg, 1-0-1;0.9203723935358082;1.0
+27. urolithiasis nierenkolik.txt;;erythrozyten;0.6489894769100294;0.0
+27. urolithiasis nierenkolik.txt;;antibiotische therapie;0.8387432509341842;0.0
+28. pneumonie.txt;ramipril 10 mg täglich;ramipril 10 mg täglich;0.8685899303042934;1.0
+28. pneumonie.txt;salbutamol bei bedarf;salbutamol bei bedarf;0.87133950317145;1.0
+28. pneumonie.txt;amoxicillin/clavulansäure 1,2 g dreimal täglich, intravenös;amoxicillin/clavulansäure 1,2 g dreimal täglich intravenös;0.8928224302341948;0.991453
+28. pneumonie.txt;paracetamol 500 mg, bei bedarf;paracetamol 500 mg, bei bedarf;0.9045179790471266;1.0
+28. pneumonie.txt;sauerstoff über nasensonde mit 2 l/min;sauerstoffgabe über nasensonde mit 2 l/min;0.6703525445617625;0.95
+28. pneumonie.txt;nacl 0,9%  1000 ml über 8 stunden,  intravenös;nacl 0,9%;0.7786641491646731;0.3272727
+28. pneumonie.txt;;antibiotische therapie;0.6864068102249026;0.0
+29. pyelonephritis.txt;ceftriaxon 2 g täglich intravenös;ceftriaxon 2 g täglich intravenös;0.8933697797411131;1.0
+29. pyelonephritis.txt;metamizol 500 mg intravenös, bei bedarf;metamizol 500 mg intravenös, bei bedarf;0.9087905418380244;1.0
+29. pyelonephritis.txt;nacl 0,9%  1000 ml über 8 stunden,  intravenös;nacl 0,9%;0.8655634490388574;0.3272727
+29. pyelonephritis.txt;paracetamol 500 mg, bei bedarf;paracetamol 500 mg, bei bedarf;0.8932088368987495;1.0
+29. pyelonephritis.txt;;antibiotische therapie;0.8145284024094426;0.0
+30. zystitis (harnwegsinfektion).txt;ciprofloxacin 500 mg zweimal täglich oral für 7 tage;ciprofloxacin 500 mg zweimal täglich oral für 7 tage;0.9024670998575176;1.0
+30. zystitis (harnwegsinfektion).txt;paracetamol 500 mg, bei bedarf;paracetamol 500 mg, bei bedarf;0.923500007990277;1.0
+30. zystitis (harnwegsinfektion).txt;nacl 0,9% 500 ml über 4 stunden,  intravenös;nacl 0,9%;0.8344346798247106;0.33962265
+30. zystitis (harnwegsinfektion).txt;;antibiotische therapie;0.8352233540492902;0.0
+31. erysipel.txt;penicillin v 1,2 millionen einheiten dreimal täglich oral für 10 tage;penicillin v 1,2 millionen einheiten dreimal täglich oral für 10 tage;0.8382218735811777;1.0
+31. erysipel.txt;ibuprofen 400 mg, bei bedarf;ibuprofen 400 mg, bei bedarf;0.9048395541099384;1.0
+31. erysipel.txt;;antibiotische therapie;0.7440988482242203;0.0
+32. akute bronchitis.txt;paracetamol 500 mg, bei bedarf;paracetamol 500 mg, bei bedarf inhalation;0.9051612776608344;0.8450704
+32. akute bronchitis.txt;salbutamol, inhalation, bei bedarf;inhalation mit salbutamol bei bedarf;0.8605896454862164;0.6
+32. akute bronchitis.txt;salbutamol, inhalation, regälmäßig bei bedarf;salbutamol;0.8461835118003048;0.36363637
+32. akute bronchitis.txt;dextromethorphan, 1-1-1;dextromethorphan;0.7686233234063702;0.82051283
+33. appendizitis.txt;nacl 0,9% 1000 ml über 8 stunden,  intravenös;nacl 0,9%;0.8735567550479515;0.33333334
+33. appendizitis.txt;paracetamol 500 mg, bei bedarf;paracetamol 500 mg, bei bedarf;0.923805062913534;1.0
+33. appendizitis.txt;dimenhydrinat 50 mg intravenös, bei bedarf;dimenhydrinat 50 mg intravenös, bei bedarf;0.8921112692355802;1.0
+34. akute divertikulitis.txt;lisinopril 10 mg täglich;lisinopril 10 mg täglich;0.8045074574781083;1.0
+34. akute divertikulitis.txt;ciprofloxacin 500 mg zweimal täglich oral für 10 tage;ciprofloxacin 500 mg zweimal täglich oral für 10 tage;0.908159811418846;1.0
+34. akute divertikulitis.txt;metamizol 500 mg, bei bedarf;metamizol 500 mg, bei bedarf;0.9381069515452704;1.0
+34. akute divertikulitis.txt;nacl 0,9% 1000 ml über 8 stunden;nacl 0,9%;0.8708212226348441;0.4390244
+34. akute divertikulitis.txt;;antibiotische therapie;0.8386925868522438;0.0
+35. tonsilitis.txt;amoxicillin/clavulansäure 875 mg/125 mg, zweimal täglich oral für 10 tage;amoxicillin/clavulansäure 875 mg/125 mg;0.8626486406537233;0.6964286
+35. tonsilitis.txt;paracetamol 500 mg, bei bedarf;paracetamol 500 mg, bei bedarf;0.9474680067645208;1.0
+35. tonsilitis.txt;;antibiotische therapie;0.6525812818670356;0.0
