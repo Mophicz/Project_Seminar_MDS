@@ -166,7 +166,7 @@ if __name__ == "__main__":
                  color=cmap(color_val))
         
         if i == 0 or i == len(MATCH_THRESHOLDS_TO_COMPARE) - 1:
-            plt.text(local_recalls[0], local_precisions[0]-0.01, f" LSH = {match_t}", color=cmap(color_val), fontweight='bold', ha='center', va='top')
+            plt.text(local_recalls[0], local_precisions[0]-0.01, f" LST = {match_t}", color=cmap(color_val), fontweight='bold', ha='center', va='top')
     
     plt.xlabel('Recall')
     plt.ylabel('Precision')
