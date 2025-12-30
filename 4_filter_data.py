@@ -53,18 +53,17 @@ else:
                 med_entry = {
                     'document': doc_name,
                     'medication_text': clean_text,
-                    'standardized_name': annotation.get('dictCanon'), # The dictionary canonical name
-                    'concept_id': annotation.get('conceptID'),        # ATC or ID
+                    'standardized_name': annotation.get('dictCanon'), 
+                    'concept_id': annotation.get('conceptID'),        
                     'begin': annotation.get('begin'),
                     'end': annotation.get('end'),
-                    'confidence': annotation.get('confidence') # Some types might not have this, but good to check
+                    'confidence': annotation.get('confidence') 
                 }
                 
                 extracted_medications.append(med_entry)
                 medication_count += 1
 
-    # Sort the results using natural sorting on the 'document' field
-    # This fixes the 1, 10, 2 issue
+    # Sort the results using natural sorting
     extracted_medications.sort(key=lambda x: natural_sort_key(x['document']))
 
     # Save the filtered list to a new JSON file

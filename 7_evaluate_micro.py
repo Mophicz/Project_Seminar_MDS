@@ -8,12 +8,8 @@ import numpy as np
 # --- Configuration ----
 input_filename = 'goldstandard_3_und_averbis_annotation.csv'
 output_filename = 'levenshtein_scores_3.csv'
-
-# Define the primary match threshold for the single-line plots (Plot 3)
-PRIMARY_MATCH_THRESHOLD = 1.0
-
-# Define the list of thresholds for the Multi-PR Curve (Plot 4)
-MATCH_THRESHOLDS_TO_COMPARE = np.arange(0.0, 1.1, 0.1)
+LST_PLOT_3 = 1.0
+LST_PLOT_4 = np.arange(0.0, 1.1, 0.1)
 # ----------------------
 
 if __name__ == "__main__":
@@ -22,7 +18,7 @@ if __name__ == "__main__":
     # Replace NaN with empty strings for text
     df[['Goldstandard', 'Averbis']] = df[['Goldstandard', 'Averbis']].fillna("")
 
-    # Handle Confidence: Force to numeric, replace NaN with 0.0
+    # Force confidence to numeric, replace NaN with 0.0
     if 'Confidence' in df.columns:
         df['Confidence'] = pd.to_numeric(df['Confidence'], errors='coerce').fillna(0.0)
     else:
@@ -36,7 +32,7 @@ if __name__ == "__main__":
     # Save the results
     df.to_csv(os.path.join('Evaluation', output_filename), index=False, sep=';')
     
-    # Pre-calculate arrays for speed
+    # Pre-calculate arrays
     scores = df['Levenshtein Score'].values
     confidences = df['Confidence'].values
     has_gold = (df['Goldstandard'] != "").values
@@ -106,8 +102,8 @@ if __name__ == "__main__":
     for t in conf_thresholds:
         is_kept = (confidences >= t)
         
-        tp = np.sum(has_gold & has_pred & is_kept & (scores >= PRIMARY_MATCH_THRESHOLD))
-        fp = np.sum(has_pred & is_kept & ((~has_gold) | (scores < PRIMARY_MATCH_THRESHOLD)))
+        tp = np.sum(has_gold & has_pred & is_kept & (scores >= LST_PLOT_3))
+        fp = np.sum(has_pred & is_kept & ((~has_gold) | (scores < LST_PLOT_3)))
         fn = total_gold_positives - tp
         
         p = tp / (tp + fp) if (tp + fp) > 0 else 1.0 
@@ -125,21 +121,21 @@ if __name__ == "__main__":
 
     plt.ylim(0, 1.1)
     plt.xlim(0, 1.1)
-    plt.xlabel(f'Confidence Threshold (with LST = {PRIMARY_MATCH_THRESHOLD})')
+    plt.xlabel(f'Confidence Threshold (with LST = {LST_PLOT_3})')
     plt.grid(axis='y', alpha=0.5)
     plt.legend(loc='lower left')
     plt.show()
 
     # ==========================================
-    # Plot 4: Multiple PR Curves (Comparing Match Thresholds with Gradient)
+    # Plot 4: Multiple PR Curves
     # ==========================================
     plt.figure(figsize=(10, 6))
     
-    # Pick a nice colormap (e.g., 'viridis', 'plasma', 'coolwarm', 'autumn')
+    # color gradient from light to dark blue
     cmap = plt.get_cmap('Blues')
     
-    # We loop over different definitions of "Correct Match" (e.g. 0.7 vs 0.9)
-    for i, match_t in enumerate(MATCH_THRESHOLDS_TO_COMPARE):
+    # We loop over different definitions of "Correct Match" (e.g. 0.0 vs 1.0)
+    for i, match_t in enumerate(LST_PLOT_4):
         local_precisions = []
         local_recalls = []
         
@@ -159,13 +155,13 @@ if __name__ == "__main__":
             local_recalls.append(r)
         
         # Calculate color based on index (0.0 to 1.0)
-        fraction = i / max(len(MATCH_THRESHOLDS_TO_COMPARE) - 1, 1)
+        fraction = i / max(len(LST_PLOT_4) - 1, 1)
         color_val = 0.2 + (fraction * 0.8)
         
         plt.plot(local_recalls, local_precisions,  
                  color=cmap(color_val))
         
-        if i == 0 or i == len(MATCH_THRESHOLDS_TO_COMPARE) - 1:
+        if i == 0 or i == len(LST_PLOT_4) - 1:
             plt.text(local_recalls[0], local_precisions[0]-0.01, f" LST = {match_t}", color=cmap(color_val), fontweight='bold', ha='center', va='top')
     
     plt.xlabel('Recall')
@@ -174,3 +170,4 @@ if __name__ == "__main__":
     plt.xlim(0, 1.1)
     plt.ylim(0, 1.1)
     plt.show()
+    

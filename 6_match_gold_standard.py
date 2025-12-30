@@ -21,21 +21,17 @@ def natural_sort_key(s):
             for text in re.split(r'(\d+)', s)]
 
 def preprocess(df):
-    # 1. Create a copy to avoid modifying the original dataframe in-place
+    # Create a copy
     df_clean = df.copy()
 
-    # 2. Iterate over columns to clean text
-    # We select only columns of type 'object' (strings) to avoid errors on numbers
-    # We explicitly skip 'confidence' if it is read as an object to strictly preserve it,
-    # though usually it is float.
+    # Iterate over columns
     for col in df_clean.select_dtypes(include=['object']).columns:
         if col != 'confidence':
-            # astype(str) ensures we handle any mixed types gracefully
             df_clean[col] = df_clean[col].astype(str).str.lower().str.strip()
     return df_clean
 
 def get_best_alignment(df_gold, df_pred):
-    # 1. Clean Data
+    # Clean Data
     df_gold.columns = [c.strip() for c in df_gold.columns]
     df_pred.columns = [c.strip() for c in df_pred.columns]
     
@@ -43,7 +39,7 @@ def get_best_alignment(df_gold, df_pred):
     df_gold['medication'] = df_gold['medication'].astype(str)
     df_pred['medication'] = df_pred['medication'].astype(str)
 
-    # 2. Fix Filename Discrepancies (Encoding/Typos)
+    # Fix Filename Discrepancies (Encoding/Typos)
     gs_files = df_gold['filename'].unique()
     pred_files = df_pred['filename'].unique()
     file_mapping = {}
@@ -65,7 +61,7 @@ def get_best_alignment(df_gold, df_pred):
     if file_mapping:
         df_pred['filename'] = df_pred['filename'].replace(file_mapping)
 
-    # 3. Perform Global Linear Assignment per File
+    # Perform Global Linear Assignment per File
     all_filenames = sorted(list(set(df_gold['filename'].unique()) | set(df_pred['filename'].unique())))
     matched_data = []
 
@@ -76,7 +72,7 @@ def get_best_alignment(df_gold, df_pred):
         # Get Averbis Meds AND Confidence
         pred_subset = df_pred[df_pred['filename'] == fname]
         pred_meds = pred_subset['medication'].tolist()
-        # Use .get to avoid errors if column is missing, default to empty list logic
+        
         pred_confs = pred_subset['confidence'].tolist() if 'confidence' in pred_subset.columns else [''] * len(pred_meds)
         
         n_gs, n_pred = len(gs_meds), len(pred_meds)
@@ -88,7 +84,7 @@ def get_best_alignment(df_gold, df_pred):
                 s1, s2 = gs_meds[i], pred_meds[j]
                 sim = SequenceMatcher(None, s1, s2).ratio()
                 
-                # Heuristic: Boost score if one is a significant substring of the other
+                # Boost score if one is a significant substring of the other
                 if len(s1) > 4 and len(s2) > 4 and (s1 in s2 or s2 in s1):
                     sim = max(sim, 0.8)
                     
@@ -111,7 +107,7 @@ def get_best_alignment(df_gold, df_pred):
                     'filename': fname,
                     'Goldstandard': gs_meds[r],
                     'Averbis': pred_meds[c],
-                    'Confidence': pred_confs[c] # Add Confidence here
+                    'Confidence': pred_confs[c]
                 })
                 matched_indices_gs.add(r)
                 matched_indices_pred.add(c)
@@ -123,7 +119,7 @@ def get_best_alignment(df_gold, df_pred):
                     'filename': fname, 
                     'Goldstandard': gs_meds[i], 
                     'Averbis': "",
-                    'Confidence': "" # No confidence because model didn't find it
+                    'Confidence': ""
                 })
                 
         # Handle unmatched Averbis (FP - False Positives)
@@ -133,22 +129,21 @@ def get_best_alignment(df_gold, df_pred):
                     'filename': fname, 
                     'Goldstandard': "", 
                     'Averbis': pred_meds[j],
-                    'Confidence': pred_confs[j] # Add Confidence here
+                    'Confidence': pred_confs[j]
                 })
 
     matched_data.sort(key=lambda x: natural_sort_key(x['filename']))
     return pd.DataFrame(matched_data)[['filename', 'Goldstandard', 'Averbis', 'Confidence']]
 
 if __name__ == "__main__":
-    # Load Data
-    # Note: Ensure the model_annotation file has the correct delimiter (usually semicolon based on previous steps)
+    # Load Data (check delimiter if issues arise)
     df_gold = preprocess(pd.read_csv(os.path.join('Goldstandard_annotationen', gold_standard), sep=','))
     df_pred = preprocess(pd.read_csv(os.path.join('Averbis_annotationen', model_annotation), sep=';'))
 
     # Call the function
     result_df = get_best_alignment(df_gold, df_pred)
 
-    # Save to CSV
-    # Using ; as separator to match typical German/Excel CSV formats
+    # Save to CSV (using semicolon as delimiter)
     result_df.to_csv(os.path.join('Evaluation', output_filename), index=False, sep=';')
     print(f"File saved to: {os.path.join('Evaluation', output_filename)}")
+    

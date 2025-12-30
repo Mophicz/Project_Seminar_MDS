@@ -18,20 +18,20 @@ else:
 
     # Prepare to write to CSV
     with open(output_path, 'w', encoding='utf-8-sig', newline='') as csvfile:
-        # Keeping delimiter as ';' based on your previous file
         writer = csv.writer(csvfile, delimiter=';')
         
-        # Write Header (Added 'confidence')
+        # Write Header
         writer.writerow(['filename', 'medication', 'confidence'])
         
         count = 0
         for entry in data:
             full_path = entry.get('document', '')
             medication = entry.get('medication_text', '')
+            
             # Extract the confidence value
             confidence = entry.get('confidence', '')
             
-            # Logic: Strip the path, keep only the filename
+            # Strip the path, keep only the filename
             filename = os.path.basename(full_path)
             
             # Write row with the new column
@@ -40,3 +40,4 @@ else:
 
     print(f"Successfully converted {count} entries.")
     print(f"File saved as: {output_csv}")
+    
