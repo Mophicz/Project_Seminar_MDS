@@ -63,9 +63,10 @@ if __name__ == "__main__":
         # TP: Match good enough AND real gold word
         tp = np.sum(has_gold & has_pred & (scores >= t))
         # FP: Pred exists, but bad score or no Gold
-        fp = np.sum((has_pred & (scores < t)) | (~has_gold & has_pred))
+        fp = np.sum((has_gold & has_pred & (scores < t)) | (~has_gold & has_pred))
         # FN: Total Gold - TP
-        fn = total_gold_positives - tp
+        # fn = total_gold_positives - tp
+        fn = np.sum(has_gold & ((~has_pred) | (has_gold & has_pred & (scores < t))))
         
         p = tp / (tp + fp) if (tp + fp) > 0 else 0.0
         r = tp / (tp + fn) if (tp + fn) > 0 else 0.0
